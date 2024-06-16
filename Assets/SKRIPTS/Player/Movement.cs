@@ -50,7 +50,7 @@ public class Movement : MonoBehaviour
         }
 
         // Skok
-        if (canJump && Input.GetButtonDown("Jump") && canMove)
+        if (canJump && Input.GetKey(KeyCode.RightShift) && canMove)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             canJump = false;

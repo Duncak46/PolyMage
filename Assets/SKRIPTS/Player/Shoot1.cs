@@ -10,7 +10,7 @@ public class Shoot1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.RightControl))
         {
             Shoots();
         }
