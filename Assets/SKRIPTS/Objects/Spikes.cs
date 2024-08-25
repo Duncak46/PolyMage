@@ -1,47 +1,51 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
     public int damage = 1;
     public float forceMagnitude = 1f;
+    public float verticalForceMultiplier = 2f; // Pøidaný faktor pro zvýšení odhození po ose Z
     public Rigidbody playerRigidbody;
-    public GameObject player;
     public GameObject playerNONE;
 
     private void OnCollisionEnter(Collision collision)
     {
-        player = collision.gameObject;
+        GameObject player = collision.gameObject;
 
         if (player.CompareTag("Player"))
         {
             HPSystem playerHealth = playerNONE.GetComponent<HPSystem>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+
             Vector3 contactPoint = collision.GetContact(0).point;
-            Vector3 objectForward = transform.forward;
-            Vector3 objectCenter = transform.position;
+            Vector3 normalDirection = collision.GetContact(0).normal;
 
             if (playerRigidbody != null)
             {
-                playerHealth.TakeDamage(damage);
-                Vector3 toPlayer = contactPoint - objectCenter;
-                float dotProduct = Vector3.Dot(objectForward, toPlayer);
-
                 Vector3 forceDirection;
 
-                if (dotProduct > 0)
+                // Kontrola, zda kolize pøišla shora
+                if (normalDirection.y < -0.5f) // Detekce, jestli normála smìøuje pøevážnì nahoru
                 {
-                    // Dotek z pøední strany, odhození do pravé strany objektu
-                    forceDirection = Quaternion.Euler(0, 90, 0) * objectForward;
+                    // Odhození po ose Z (stranou) místo osy Y, aby hráè nespadl zpìt na objekt
+                    forceDirection = new Vector3(0, 0, Mathf.Sign(contactPoint.z - transform.position.z) * verticalForceMultiplier);
                 }
                 else
                 {
-                    // Dotek ze zadní strany, odhození do levé strany objektu
-                    forceDirection = Quaternion.Euler(0, -90, 0) * objectForward;
+                    // Standardní odhození ve smìru normály
+                    forceDirection = normalDirection * -1;
                 }
 
                 playerRigidbody.AddForce(forceDirection * forceMagnitude, ForceMode.Impulse);
+
+                // Spuštìní probliknutí
             }
         }
     }
+
+    
 }

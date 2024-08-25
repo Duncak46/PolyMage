@@ -29,6 +29,8 @@ public class DeadEnemy : MonoBehaviour
             HP--;
             if (HP <= 0 && !isDead)
             {
+                Destroy(gameObject.GetComponent<RandomMovement1>());
+                Destroy(gameObject.GetComponent<BoxCollider>());
                 StartDeath();
             }
         }
