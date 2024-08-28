@@ -1,0 +1,642 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'cs' Physical Memory: 7530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/petrd/Documents/GitHub/PolyMage
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52608
+Successfully changed project path to: C:/Users/petrd/Documents/GitHub/PolyMage
+C:/Users/petrd/Documents/GitHub/PolyMage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5140] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 981907881 [EditorId] 981907881 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5140] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 981907881 [EditorId] 981907881 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 17.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/petrd/Documents/GitHub/PolyMage/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3765 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010903 seconds.
+- Loaded All Assemblies, in  0.547 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.048 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.512 seconds
+Domain Reload Profiling: 2556ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (1134ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3650.
+Memory consumption went from 141.2 MB to 141.2 MB.
+Total: 17.513700 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.181000 ms MarkObjects: 16.494000 ms  DeleteObjects: 0.204400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70330.255603 seconds.
+  path: Assets/kenney_castle-kit/Previews/bridge-straight.png
+  artifactKey: Guid(5a36e232993fb964eb9e4c1a2d8949a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/bridge-straight.png using Guid(5a36e232993fb964eb9e4c1a2d8949a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59a8a1b0180c00aa16efdb7111255265') in 0.128829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-mid-door.png
+  artifactKey: Guid(50d135e8c5872944c8318cfce6ec83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-mid-door.png using Guid(50d135e8c5872944c8318cfce6ec83c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8304aec24be1d65e7ae9ab3b68c6093b') in 0.011054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-corner.png
+  artifactKey: Guid(e2248bdaf61a2b54d844838fe8c00fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-corner.png using Guid(e2248bdaf61a2b54d844838fe8c00fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e86e810ad7fb9cfe369b891d9989abe3') in 0.008449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-corner-half-tower.png
+  artifactKey: Guid(da80db78205ff0f44a34a4e0ff8ed532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-corner-half-tower.png using Guid(da80db78205ff0f44a34a4e0ff8ed532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e7278cb352c1be3796edc69d5ca7c2e') in 0.007581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_castle-kit/Previews/tree-large.png
+  artifactKey: Guid(7e3c67663ef96f440bffd982d66c2bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tree-large.png using Guid(7e3c67663ef96f440bffd982d66c2bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b31116ab7526b7f55bbe2fb61634c7e0') in 0.008430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-mid.png
+  artifactKey: Guid(b3e4e0f8f65108c4999747226395a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-mid.png using Guid(b3e4e0f8f65108c4999747226395a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43e6b54699e87e0797c5e48b723e71f6') in 0.010599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-roof.png
+  artifactKey: Guid(4b9c2eaa9d772a742a6e38ddffd91949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-roof.png using Guid(4b9c2eaa9d772a742a6e38ddffd91949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5df1671037366815d845308dc5b3d85') in 0.012384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-mid-open-simple.png
+  artifactKey: Guid(56040fcb48e1fc441be35fc70371c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-mid-open-simple.png using Guid(56040fcb48e1fc441be35fc70371c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f64bab19ea2add24f07a78c5f608e0b') in 0.011125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-narrow.png
+  artifactKey: Guid(622cf815bcb6d7847a6c3565646861a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-narrow.png using Guid(622cf815bcb6d7847a6c3565646861a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2c375b55d58850e409949ea6a7f318b') in 0.011504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_castle-kit/Previews/door.png
+  artifactKey: Guid(5d182edd2c8b5cf458f3856829a23c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/door.png using Guid(5d182edd2c8b5cf458f3856829a23c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4adbe7dd7ad6dc4294057285b84616b6') in 0.009024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-half.png
+  artifactKey: Guid(55ed8e75cf868fd48ac1c7ad1a60c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-half.png using Guid(55ed8e75cf868fd48ac1c7ad1a60c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5993ee1f9082bd24e9d51b3e5bd18a69') in 0.012848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_castle-kit/Previews/siege-tower-demolished.png
+  artifactKey: Guid(0abbd92338958474aae01d0d47625d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/siege-tower-demolished.png using Guid(0abbd92338958474aae01d0d47625d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86b96d45c98a66c382192852becb7159') in 0.008933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-base.png
+  artifactKey: Guid(c545d1682efe82647a3159e0a9962596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-base.png using Guid(c545d1682efe82647a3159e0a9962596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72fe105c629248746ee3814057387d19') in 0.007952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-corner-slant.png
+  artifactKey: Guid(3256232258b17b04b81f17a9e5c4975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-corner-slant.png using Guid(3256232258b17b04b81f17a9e5c4975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '561aa3a1c6b3d13ed53a495e4ce75faa') in 0.014147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-mid-open.png
+  artifactKey: Guid(2f269d3eb7aea234d839cade2387ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-mid-open.png using Guid(2f269d3eb7aea234d839cade2387ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85b9f99977fc9f2a6e46a08ea2640cd7') in 0.008649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-hexagon-roof.png
+  artifactKey: Guid(9a0c7baf1632042459645969e19ab4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-hexagon-roof.png using Guid(9a0c7baf1632042459645969e19ab4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8fedd4402376cbca0c73618c1b23b65') in 0.008770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square.png
+  artifactKey: Guid(874a50131fba64545aa3bb1d32764fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square.png using Guid(874a50131fba64545aa3bb1d32764fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'edff00f8a6ca750edab28d19fc56693e') in 0.012140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-mid-windows.png
+  artifactKey: Guid(84ffeef31921981489e8ba1c9ad1add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-mid-windows.png using Guid(84ffeef31921981489e8ba1c9ad1add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e2918531eaab4433bac8b30d01388da') in 0.009082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_castle-kit/Previews/siege-ballista.png
+  artifactKey: Guid(d9b9a39e25703d6488b5a630a98d4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/siege-ballista.png using Guid(d9b9a39e25703d6488b5a630a98d4072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc8f707b9bce848f14b80da3dbb83e0d') in 0.017386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-base-border.png
+  artifactKey: Guid(cbf1ec44edc588b428e56b0c83cc3615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-base-border.png using Guid(cbf1ec44edc588b428e56b0c83cc3615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b712fdde885de9bd9b00410ab7a9d33') in 0.009873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/kenney_castle-kit/Previews/flag-pennant.png
+  artifactKey: Guid(6af4c62798bf3df44915cf3fdebdf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/flag-pennant.png using Guid(6af4c62798bf3df44915cf3fdebdf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a028df2f663ca36bf64bbb5bb020a65') in 0.012368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-narrow-stairs.png
+  artifactKey: Guid(bfa1ab3baeaf141498065e26217cf652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-narrow-stairs.png using Guid(bfa1ab3baeaf141498065e26217cf652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35dbff89bff43f223adb3c685eac363c') in 0.010342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_castle-kit/Previews/rocks-small.png
+  artifactKey: Guid(4e8e558135f87df4aadf5b67f797d814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/rocks-small.png using Guid(4e8e558135f87df4aadf5b67f797d814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e28e4bc751fbe14cdbdbcdc02f1e0b13') in 0.011491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-top.png
+  artifactKey: Guid(b9d65898b81a82d4589c394338477c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-top.png using Guid(b9d65898b81a82d4589c394338477c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c028697173682b1e9541d76150617e9') in 0.015427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-square-top-roof-rounded.png
+  artifactKey: Guid(934bae8d35edbb04d9f5a8c44b7084ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-square-top-roof-rounded.png using Guid(934bae8d35edbb04d9f5a8c44b7084ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f92f75b5fe9c82f9604cc7ff63ca44a3') in 0.009942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_castle-kit/Previews/siege-ballista-demolished.png
+  artifactKey: Guid(893e714bf3464064a93e04b7fe4d3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/siege-ballista-demolished.png using Guid(893e714bf3464064a93e04b7fe4d3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9122dd72604db826160df3a0b82bf138') in 0.011395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-narrow-wood-fence.png
+  artifactKey: Guid(ec1d44abb3a6d504ca52fca077f6452f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-narrow-wood-fence.png using Guid(ec1d44abb3a6d504ca52fca077f6452f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95f418587ccb886aeb0f34ccdf1c4145') in 0.009690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-to-narrow.png
+  artifactKey: Guid(79448dfb18806de4789759e120c796ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-to-narrow.png using Guid(79448dfb18806de4789759e120c796ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0e3c1f67e5bdbf439756c5135d75ecf') in 0.015034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-narrow-gate.png
+  artifactKey: Guid(2c6aad1b14c18754e92c9a45c1daa703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-narrow-gate.png using Guid(2c6aad1b14c18754e92c9a45c1daa703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74a8f213502ad7be94cc6eb30c69f43a') in 0.012233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/kenney_castle-kit/Previews/bridge-straight-pillar.png
+  artifactKey: Guid(dbf5e60dd28f1b740b4e3eacf60d1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/bridge-straight-pillar.png using Guid(dbf5e60dd28f1b740b4e3eacf60d1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9346b23dcd97d801da5865f3cb80562a') in 0.014151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/kenney_castle-kit/Previews/siege-trebuchet.png
+  artifactKey: Guid(3b40f3f63efffd24fa30d8a38e57e7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/siege-trebuchet.png using Guid(3b40f3f63efffd24fa30d8a38e57e7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a194a7c9cdba66765bfd61d2e105ffca') in 0.010694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-hexagon-roof-secondary.png
+  artifactKey: Guid(903ffa43a53a84e449665c9edce8102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-hexagon-roof-secondary.png using Guid(903ffa43a53a84e449665c9edce8102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '396faba708a193f4c053e75754cb95f7') in 0.010569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_castle-kit/Previews/wall-narrow-wood.png
+  artifactKey: Guid(d06ec66a36051304ca869dd8c1cb8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/wall-narrow-wood.png using Guid(d06ec66a36051304ca869dd8c1cb8964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7fc4ccb00de65e8bacc59cc68837850') in 0.012730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_castle-kit/Previews/tower-hexagon-top.png
+  artifactKey: Guid(45de815cbdfa27147b6624b55c53e3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Previews/tower-hexagon-top.png using Guid(45de815cbdfa27147b6624b55c53e3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e88e1fa3fbf6aef747452e1ebecd3102') in 0.008717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.298022 seconds.
+  path: Assets/kenney_castle-kit/Models/Textures/variation-b.png
+  artifactKey: Guid(d44e743671f0b1a45bcbf8c57af93aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Models/Textures/variation-b.png using Guid(d44e743671f0b1a45bcbf8c57af93aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d52a3b790133735abbd6b63f937d8dc') in 0.011600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_castle-kit/Models/Textures/variation-e.png
+  artifactKey: Guid(2ccc0a4d446914d4d80b25c5487e6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Models/Textures/variation-e.png using Guid(2ccc0a4d446914d4d80b25c5487e6ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abe5552e453c41b5d2f64d5a515e87c0') in 0.013426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_castle-kit/Models/Textures/variation-f.png
+  artifactKey: Guid(7011890c292d3d84db2ebd27e29e695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Models/Textures/variation-f.png using Guid(7011890c292d3d84db2ebd27e29e695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6215d4c5ea37f146494c8785666e732c') in 0.010213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_castle-kit/Models/Textures/variation-d.png
+  artifactKey: Guid(ad516e8656110d34e931353829f46505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_castle-kit/Models/Textures/variation-d.png using Guid(ad516e8656110d34e931353829f46505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51c094c6ff5d65ec1ed56826b7c265fe') in 0.013783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 100.913207 seconds.
+  path: Assets/Piloto Studio/Textures/Flare_Cross.png
+  artifactKey: Guid(edb851611bbcd0b45985df4cd3206f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/Flare_Cross.png using Guid(edb851611bbcd0b45985df4cd3206f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f855eb9a8546071a4f82e1c25ff336b9') in 0.010364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006613 seconds.
+  path: Assets/Piloto Studio/Textures/Flare_FatDot.png
+  artifactKey: Guid(d1d952ce60053cd4aae8bab9176e3e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/Flare_FatDot.png using Guid(d1d952ce60053cd4aae8bab9176e3e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2244e105557d3b0651518929887af5fc') in 0.031716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Piloto Studio/Textures/PackedNoises_Generic.png
+  artifactKey: Guid(3ac70e7ced6d23946ac37f602b2bc573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/PackedNoises_Generic.png using Guid(3ac70e7ced6d23946ac37f602b2bc573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be8d942a0f44dcf6b490fcad7b798ae8') in 0.012199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001903 seconds.
+  path: Assets/Piloto Studio/Textures/HalftoneCrescent.png
+  artifactKey: Guid(11704389ad2cbfb4089c7ae7eb0b4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/HalftoneCrescent.png using Guid(11704389ad2cbfb4089c7ae7eb0b4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '165fc64f9a6a15e37deb635b8a70e3e6') in 0.018586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Piloto Studio/Textures/gradient_004.png
+  artifactKey: Guid(803192b3518592f4faaa4d8e1ff37dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/gradient_004.png using Guid(803192b3518592f4faaa4d8e1ff37dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a15fe998581b05a07cbab66b2c71b6e9') in 0.011633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Piloto Studio/Textures/Trail_WispyGeneric.png
+  artifactKey: Guid(4dd4c93f487c05b4f84c39a956be86e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piloto Studio/Textures/Trail_WispyGeneric.png using Guid(4dd4c93f487c05b4f84c39a956be86e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7637ce2f4058d508417ae7368e4fb990') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Vstupnì-výstupní operace byla pøerušena buï z dùvodu ukonèení vlákna, nebo na žádost aplikace.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
