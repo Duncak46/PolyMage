@@ -126,8 +126,8 @@
     <Compile Include="Assets\SKRIPTS\Objects\HittingBlink.cs" />
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs" />
     <Compile Include="Assets\SKRIPTS\Enemy\enemy1\RandomMovement1.cs" />
-    <Compile Include="Assets\DungeonVoxels\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\Readme.cs" />
+    <Compile Include="Assets\DungeonVoxels\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.11\URP Package Samples\RendererFeatures\BlitToRTHandle\BlitToRTHandleRendererFeature.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.11\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_ColorBlock.cs" />
@@ -141,9 +141,11 @@
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\kenney_castle-kit\License.txt" />
+    <None Include="Assets\1.svět\License.txt" />
     <None Include="Assets\OSTNY\License.txt" />
     <None Include="Assets\Samples\Universal RP\14.0.11\URP Package Samples\SharedAssets\Shaders\3DText.shader" />
+    <None Include="Assets\2. &amp; 3. svět\License.txt" />
+    <None Include="Assets\4. svět\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -990,16 +992,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1026,16 +1028,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1078,16 +1080,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
