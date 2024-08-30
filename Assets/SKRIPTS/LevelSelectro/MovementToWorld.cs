@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MovementToWorld : MonoBehaviour
 {
-    private float doLeva = 0f;
-    private float doPrava = -180f;
-    private float staticke = -90f;
+    private float doLeva = 180f;
+    private float doPrava = 0f;
+    private float staticke = 90f;
     private float jakaRotace = 0;
 
     private bool rotuje = false;
@@ -38,7 +38,7 @@ public class MovementToWorld : MonoBehaviour
             case 2: player.transform.position = level2; target = level2; break;
             case 3: player.transform.position = level3; target = level3; break;
         }
-        player.rotation = Quaternion.Euler(player.rotation.eulerAngles.x, -90f, player.rotation.eulerAngles.z);
+        player.rotation = Quaternion.Euler(player.rotation.eulerAngles.x, 90f, player.rotation.eulerAngles.z);
         jakaRotace = staticke;
         
     }

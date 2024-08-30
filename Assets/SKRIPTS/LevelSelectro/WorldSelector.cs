@@ -28,7 +28,6 @@ public class WorldSelector : MonoBehaviour
             case 2: target = level2; levelNum = 2; break;
             case 3: target = level3; levelNum = 3; break;
         }
-        
         transform.position = new Vector3(transform.position.x,transform.position.y,target.z);
     }
 

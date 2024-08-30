@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class MovementToLevels : MonoBehaviour
 {
-    private float doLeva = 0f;
-    private float doPrava = -180f;
-    private float staticke = -90f;
+    private float doLeva = 180f;
+    private float doPrava = 0f;
+    private float staticke = 90f;
     private float jakaRotace = 0;
 
     private bool rotuje = false;
