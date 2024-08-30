@@ -15,7 +15,7 @@ C:/Users/petrd/Documents/GitHub/PolyMage
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54439
+60597
 Successfully changed project path to: C:/Users/petrd/Documents/GitHub/PolyMage
 C:/Users/petrd/Documents/GitHub/PolyMage
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/petrd/Documents/GitHub/PolyMage
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25112] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2056775795 [EditorId] 2056775795 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13540] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2371522623 [EditorId] 2371522623 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25112] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2056775795 [EditorId] 2056775795 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13540] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2371522623 [EditorId] 2371522623 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 29.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014800 seconds.
-- Loaded All Assemblies, in  0.625 seconds
+Registered in 0.010928 seconds.
+- Loaded All Assemblies, in  0.466 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.444 seconds
-Domain Reload Profiling: 1065ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 763ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (226ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (200ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (445ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (301ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (350ms)
+		SetupLoadedEditorAssemblies (234ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 1065ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.839 seconds
-Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.349 seconds
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
@@ -140,47 +140,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.922 seconds
-Domain Reload Profiling: 3760ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  1.579 seconds
+Domain Reload Profiling: 2923ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (133ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1374ms)
-		LoadAssemblies (696ms)
+	LoadAllAssembliesAndSetupDomain (994ms)
+		LoadAssemblies (746ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (810ms)
-			TypeCache.Refresh (740ms)
-				TypeCache.ScanAssembly (708ms)
-			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1922ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (321ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1580ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1572ms)
+		SetupLoadedEditorAssemblies (1326ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (1298ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1091ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 11.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 5570.
+Unloading 5094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 5572.
 Memory consumption went from 211.9 MB to 211.2 MB.
-Total: 15.677800 ms (FindLiveObjects: 0.536200 ms CreateObjectMapping: 0.245300 ms MarkObjects: 14.162600 ms  DeleteObjects: 0.731900 ms)
+Total: 15.794000 ms (FindLiveObjects: 0.727400 ms CreateObjectMapping: 0.347000 ms MarkObjects: 14.086400 ms  DeleteObjects: 0.627500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -197,301 +197,889 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 211204.043488 seconds.
-  path: Assets/barrel.fbx
-  artifactKey: Guid(2a94f21581208d444b7f4b3c7cd42732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/barrel.fbx using Guid(2a94f21581208d444b7f4b3c7cd42732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 241488.778920 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/arrows.fbx
+  artifactKey: Guid(4f45c4ee0afeaa446970cff6c4ca59f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/arrows.fbx using Guid(4f45c4ee0afeaa446970cff6c4ca59f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fe4ad9910ff24931c27a24717c78ea7b') in 0.204381 seconds
+ -> (artifact id: '03a1d41340850e616aeeb8b8949d7c1b') in 0.261434 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.455 seconds
-Refreshing native plugins compatible for Editor in 20.84 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.825 seconds
-Domain Reload Profiling: 10275ms
-	BeginReloadAssembly (599ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (3ms)
-		CreateAndSetChildDomain (218ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (2671ms)
-		LoadAssemblies (2765ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (40ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (71ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (6827ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1401ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (21ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (1021ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 21.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (0.7 MB). Loaded Objects now: 5619.
-Memory consumption went from 191.2 MB to 190.5 MB.
-Total: 22.127500 ms (FindLiveObjects: 0.695100 ms CreateObjectMapping: 0.304600 ms MarkObjects: 19.776500 ms  DeleteObjects: 1.348100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 93.681765 seconds.
-  path: Assets/SKRIPTS/Barrel.cs
-  artifactKey: Guid(e9fa029a0b4a4f34a987f04fe36f0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SKRIPTS/Barrel.cs using Guid(e9fa029a0b4a4f34a987f04fe36f0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1fead674a79e80c276f2d8c7feee1a35') in 0.021173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.301 seconds
-Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.859 seconds
-Domain Reload Profiling: 6154ms
-	BeginReloadAssembly (294ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (877ms)
-		LoadAssemblies (951ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (71ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (4860ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1168ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (178ms)
-			ProcessInitializeOnLoadAttributes (840ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 11.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (0.7 MB). Loaded Objects now: 5623.
-Memory consumption went from 191.2 MB to 190.5 MB.
-Total: 18.434200 ms (FindLiveObjects: 0.718300 ms CreateObjectMapping: 0.316900 ms MarkObjects: 16.646900 ms  DeleteObjects: 0.750100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.573 seconds
-Refreshing native plugins compatible for Editor in 22.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.165 seconds
-Domain Reload Profiling: 5732ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (1218ms)
-		LoadAssemblies (1235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (65ms)
-	FinalizeReload (4165ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (958ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (746ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 10.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5007 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (0.7 MB). Loaded Objects now: 5627.
-Memory consumption went from 191.5 MB to 190.8 MB.
-Total: 13.015900 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 0.379700 ms MarkObjects: 11.447200 ms  DeleteObjects: 0.548600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 252.699125 seconds.
-  path: Assets/RPGMonsterBuddiesPBRPA/Prefab/CactusPBR.prefab
-  artifactKey: Guid(a48631e259d0486fa83621f7d8f36e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGMonsterBuddiesPBRPA/Prefab/CactusPBR.prefab using Guid(a48631e259d0486fa83621f7d8f36e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-low-straight.fbx
+  artifactKey: Guid(26143da1186f21848b5a2ca2762f1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-low-straight.fbx using Guid(26143da1186f21848b5a2ca2762f1fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bdb4a4d85f00bebed59975e03cf1632b') in 0.324102 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8653afb74a6548d12676898f6a2f101d') in 0.033779 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 104
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000051 seconds.
-  path: Assets/RPGMonsterBuddiesPBRPA/Prefab/MushroomSmilePA.prefab
-  artifactKey: Guid(7162793d91fb69744a25a3a0371894ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGMonsterBuddiesPBRPA/Prefab/MushroomSmilePA.prefab using Guid(7162793d91fb69744a25a3a0371894ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-corner-low.fbx
+  artifactKey: Guid(895cb2842a3ce1e47a0c0fc2ea085db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-corner-low.fbx using Guid(895cb2842a3ce1e47a0c0fc2ea085db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4e600a6c71fecb4008eb934bd89e9541') in 0.071878 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '466df89649a0fdef878df739326cfbbc') in 0.031029 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 104
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/RPGMonsterBuddiesPBRPA/Prefab/MushroomSmilePBR.prefab
-  artifactKey: Guid(c3c76a247c7e43b19a40ebfcfefa8f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGMonsterBuddiesPBRPA/Prefab/MushroomSmilePBR.prefab using Guid(c3c76a247c7e43b19a40ebfcfefa8f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-slope-steep.fbx
+  artifactKey: Guid(cbe4bc75fb183b946ab740a5feb0fe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-slope-steep.fbx using Guid(cbe4bc75fb183b946ab740a5feb0fe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e30328bcb4f37e5ba36b9b5fbf284972') in 0.051832 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed7acf0caaee8f42f0b1f4344d4cc282') in 0.032664 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 105
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-low-long.fbx
+  artifactKey: Guid(74b16de7f23678746aec86e288dda52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-low-long.fbx using Guid(74b16de7f23678746aec86e288dda52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d51a6471fb1d4f0aa6e88eb1f070b63') in 0.034621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-low-large.fbx
+  artifactKey: Guid(33bac99a57207b4479cc8573a9549ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-low-large.fbx using Guid(33bac99a57207b4479cc8573a9549ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3880b3fe6fcc8a0a46b8aa516712c2a5') in 0.035458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-slope-narrow.fbx
+  artifactKey: Guid(f2131d71db16ad44fa5c68a0b47a4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-slope-narrow.fbx using Guid(f2131d71db16ad44fa5c68a0b47a4d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26b73dfeb1a66c243a49c9bad19e629a') in 0.032505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/door-rotate.fbx
+  artifactKey: Guid(30b29ba06c1d7de4ea50d05a7ca7d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/door-rotate.fbx using Guid(30b29ba06c1d7de4ea50d05a7ca7d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06d1f6f824f40b127a0d3d205d77f038') in 0.054367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-tall.fbx
+  artifactKey: Guid(c39038785480c9a4189680cb61cafb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large-tall.fbx using Guid(c39038785480c9a4189680cb61cafb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd91cc8c84d4fe009f653194d3979be7d') in 0.040559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large.fbx
+  artifactKey: Guid(ef3805b1c8484134ea2ff76995a6863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-large.fbx using Guid(ef3805b1c8484134ea2ff76995a6863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1551b3cae9c1b29f1aa1c7178face2f3') in 0.037217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx
+  artifactKey: Guid(abbdc0d645d1f9942959f0670fd62bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-steep-narrow.fbx using Guid(abbdc0d645d1f9942959f0670fd62bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7fe7bb2f26d514ea2c817f2f5f14439c') in 0.050287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-long.fbx
+  artifactKey: Guid(6fed3bca799666c40aaf97a4ce4fd49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-long.fbx using Guid(6fed3bca799666c40aaf97a4ce4fd49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9747577541733b341a516ca13f644be3') in 0.070353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/crate-strong.fbx
+  artifactKey: Guid(3f10179e1d04025499eaa25ca2735177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/crate-strong.fbx using Guid(3f10179e1d04025499eaa25ca2735177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc0d1dbd4b3ae536eb5efe6ba9a946bb') in 0.068114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-hexagon.fbx
+  artifactKey: Guid(73128abf6565f5648969a8d54d65e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-hexagon.fbx using Guid(73128abf6565f5648969a8d54d65e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a19ce09a6c7db23f2b4e3178baf344e') in 0.063082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow.fbx
+  artifactKey: Guid(87162d9a28d478440a22323c1314bc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow.fbx using Guid(87162d9a28d478440a22323c1314bc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c90de17d673809a25022cc64d389165') in 0.066547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-large-slope-steep.fbx
+  artifactKey: Guid(e730622a66669014bb3c0ff0849b9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-large-slope-steep.fbx using Guid(e730622a66669014bb3c0ff0849b9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82f5a1dfecd9a33a1e4bcf2a8c945511') in 0.060833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/coin-gold.fbx
+  artifactKey: Guid(b3d26efdfebc18549a2354c42d259f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/coin-gold.fbx using Guid(b3d26efdfebc18549a2354c42d259f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae24b42d109b002fc0e06185cac5420d') in 0.061203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-large-slope-narrow.fbx
+  artifactKey: Guid(32300dbf3a089ea449bcde755f6499d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-large-slope-narrow.fbx using Guid(32300dbf3a089ea449bcde755f6499d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3aec52fcf03d6f25c7e4e0bbf07ce9f0') in 0.057461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-broken.fbx
+  artifactKey: Guid(f2e8d48dce8d65d4abea650a4266cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-broken.fbx using Guid(f2e8d48dce8d65d4abea650a4266cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33d63f9419f1ab248712afb57dba6273') in 0.062840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-curve-low.fbx
+  artifactKey: Guid(7008f0b181fb79446b086bb74392efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-curve-low.fbx using Guid(7008f0b181fb79446b086bb74392efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0445d1bdbf87338a58d6a4ce13b425e1') in 0.057545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/button-round.fbx
+  artifactKey: Guid(cd2616bf9c92de24ab18a32e49aa6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/button-round.fbx using Guid(cd2616bf9c92de24ab18a32e49aa6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b15de45ce2b0ef283c68c4b79228dccd') in 0.070631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-curve.fbx
+  artifactKey: Guid(4ba3e0490e0f5564088283d29feafb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-curve.fbx using Guid(4ba3e0490e0f5564088283d29feafb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2e50fd0018cd443959d25f6d9ab03bc') in 0.067259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/flowers.fbx
+  artifactKey: Guid(f159b7717e867784fb5d500c0e63f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/flowers.fbx using Guid(f159b7717e867784fb5d500c0e63f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab3d01b5e001ab6b3710650c17e6aa87') in 0.104177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large.fbx
+  artifactKey: Guid(26a7d8e525541294e911be2dc12c461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large.fbx using Guid(26a7d8e525541294e911be2dc12c461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77b6d581ef79d1b26cb32b4c726ba276') in 0.065882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-low-corner.fbx
+  artifactKey: Guid(982569e47bf31fe4e996c2ae8a23f36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-low-corner.fbx using Guid(982569e47bf31fe4e996c2ae8a23f36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a11146e6645bba5c944f99a9629c1345') in 0.050858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-corner.fbx
+  artifactKey: Guid(f91497b2995cf0d4f8f4e511784d1d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-corner.fbx using Guid(f91497b2995cf0d4f8f4e511784d1d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5707bface9c971297ed4eea851769440') in 0.036926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-corner.fbx
+  artifactKey: Guid(4408375f6c8c12c4a835668d340ea71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-corner.fbx using Guid(4408375f6c8c12c4a835668d340ea71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '661e7d2542ac7f0f13c9464db15d89c7') in 0.078008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/crate-item-strong.fbx
+  artifactKey: Guid(3db007874f36ef2428eabe9972e45711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/crate-item-strong.fbx using Guid(3db007874f36ef2428eabe9972e45711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3320db9450286e1df4d31c948d823d55') in 0.040050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-narrow.fbx
+  artifactKey: Guid(c3715ac9cf8b3f846b2295f8365ea079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-narrow.fbx using Guid(c3715ac9cf8b3f846b2295f8365ea079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1abdabc93c25b3166d75dea9b70439be') in 0.057886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-large.fbx
+  artifactKey: Guid(bdfa0b483da8bc549933ccca064f402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-large.fbx using Guid(bdfa0b483da8bc549933ccca064f402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4d113140ad41d59620c97f95ef26d90') in 0.059212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/flag.fbx
+  artifactKey: Guid(fa94716d16511c8418e489394cc528ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/flag.fbx using Guid(fa94716d16511c8418e489394cc528ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28a302c6ee20d862aeebdd00d5034716') in 0.075611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-curve-low.fbx
+  artifactKey: Guid(15026f425a5411a4c83761641385e7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-curve-low.fbx using Guid(15026f425a5411a4c83761641385e7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18e36943cff707f2d068b5941cc06a77') in 0.050895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.020527 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-moving-blue.fbx
+  artifactKey: Guid(aa7adde496c3a63458994b59dd7805ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-moving-blue.fbx using Guid(aa7adde496c3a63458994b59dd7805ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '596029db6327133198a808c722d2ea8b') in 0.046268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass.fbx
+  artifactKey: Guid(adc6d264a884aa940b0ba0caed689b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass.fbx using Guid(adc6d264a884aa940b0ba0caed689b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37077e0837c13d0c4677ad3d068f4eef') in 0.049587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-low-narrow.fbx
+  artifactKey: Guid(9e7d8e009a108cf4fbcd3ce50505e92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-low-narrow.fbx using Guid(9e7d8e009a108cf4fbcd3ce50505e92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd20ff4b2b2040bba4436657602438bae') in 0.046394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/heart.fbx
+  artifactKey: Guid(6b398deeba738fb4a9272b0fe1990d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/heart.fbx using Guid(6b398deeba738fb4a9272b0fe1990d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47e00ec129c9d31001b769d71a0e85a8') in 0.045057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-curve-half.fbx
+  artifactKey: Guid(2fd6f48a889715f4b88218de4817715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-curve-half.fbx using Guid(2fd6f48a889715f4b88218de4817715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68907ea930bb90ca7b214cf0951e9fa8') in 0.066020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-hexagon.fbx
+  artifactKey: Guid(49b708a80febaed4a9da3652cf94f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-hexagon.fbx using Guid(49b708a80febaed4a9da3652cf94f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fae373fadfb4e83971825a3fddbf063a') in 0.033808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope.fbx
+  artifactKey: Guid(dab6b9050e3c55f42a7e08f735c47ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope.fbx using Guid(dab6b9050e3c55f42a7e08f735c47ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abd66f301571dd2b80f6be66c44fc94f') in 0.046659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/coin-bronze.fbx
+  artifactKey: Guid(41cba83b3bb954f40b4fc4a4c4e104f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/coin-bronze.fbx using Guid(41cba83b3bb954f40b4fc4a4c4e104f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23720b8157be11b56dabb5baccc11f68') in 0.047739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-narrow.fbx
+  artifactKey: Guid(21af00613bc3f6644a068f7605e9940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-overhang-low-narrow.fbx using Guid(21af00613bc3f6644a068f7605e9940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7258b72bab6ee08ba9b7924c26969d81') in 0.057773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-narrow.fbx
+  artifactKey: Guid(4fe3cf818fbeb38438560a00900b0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-narrow.fbx using Guid(4fe3cf818fbeb38438560a00900b0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dbc894e33f925467dfe71ebc67587f74') in 0.036718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-low-corner-curved.fbx
+  artifactKey: Guid(7250bd15b800d0140b0b00a036826083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-low-corner-curved.fbx using Guid(7250bd15b800d0140b0b00a036826083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a87d0032cb7000d312c87b370f3fc5c') in 0.032177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-low-narrow.fbx
+  artifactKey: Guid(7c9869e68581e864983fd4b3d4e5bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-low-narrow.fbx using Guid(7c9869e68581e864983fd4b3d4e5bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71c62b899e4da011337cc69b957f8b40') in 0.050392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-straight.fbx
+  artifactKey: Guid(14edf4b87ea43924cbff07245f93e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-straight.fbx using Guid(14edf4b87ea43924cbff07245f93e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1dabcfc6f61003dfab0b459a4462b7b') in 0.045209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-large-slope-narrow.fbx
+  artifactKey: Guid(a9d5c47c1f06a9d458b94726e49f5bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-large-slope-narrow.fbx using Guid(a9d5c47c1f06a9d458b94726e49f5bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a03391fe945cce8628c9327f0ac9b03d') in 0.041318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-hexagon.fbx
+  artifactKey: Guid(b3f79aaba063cc941bd86619205e097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-hexagon.fbx using Guid(b3f79aaba063cc941bd86619205e097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eefceaa0bcd7dc4b3af74a56b1c61d2') in 0.051594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-curve-half.fbx
+  artifactKey: Guid(2f19048d84b80af4090b396e51c61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-curve-half.fbx using Guid(2f19048d84b80af4090b396e51c61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f6f8777e373c40176d5d0636bb6fafd') in 0.040034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-low-hexagon.fbx
+  artifactKey: Guid(3921d09a5ddf0504e9c526f029f07f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-low-hexagon.fbx using Guid(3921d09a5ddf0504e9c526f029f07f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '213ce0c766ed27dac396dd79e51a0112') in 0.039656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-long.fbx
+  artifactKey: Guid(2cd10ac730394b04caa18717a1e148aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-long.fbx using Guid(2cd10ac730394b04caa18717a1e148aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f00a5ea3d15a0881e4e384c830864a52') in 0.052174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/fence-corner.fbx
+  artifactKey: Guid(70d74d4b63649fd4a968c5861a8de526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/fence-corner.fbx using Guid(70d74d4b63649fd4a968c5861a8de526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40e0d85171bdd47c599919e6e5de7ee0') in 0.046329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/door-open.fbx
+  artifactKey: Guid(68eac7be22fba604ba8eb31c44e8fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/door-open.fbx using Guid(68eac7be22fba604ba8eb31c44e8fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66a0b61cc92920413b3e2c699e1c9f73') in 0.055277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-steep.fbx
+  artifactKey: Guid(13915a82e6ba46542bc8d89d70a50559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-overhang-large-slope-steep.fbx using Guid(13915a82e6ba46542bc8d89d70a50559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6346e0539efab5872cb78610bbd78ec6') in 0.067047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-snow-low-long.fbx
+  artifactKey: Guid(7b346c4525b48e149be9f74630518425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-snow-low-long.fbx using Guid(7b346c4525b48e149be9f74630518425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dfb5dc5e038d9ae175642f74d006ab8') in 0.045867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/block-grass-edge.fbx
+  artifactKey: Guid(538df394e26a8be47af36f4bda943fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/block-grass-edge.fbx using Guid(538df394e26a8be47af36f4bda943fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d6897544a283f02977b290db54c6d3d') in 0.051516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 476.981783 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/hedge-corner.fbx
+  artifactKey: Guid(a9cf4a836e144344a8d1a43ff8e9fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/hedge-corner.fbx using Guid(a9cf4a836e144344a8d1a43ff8e9fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '176bf235891fea188312f7ca41401d49') in 0.050434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/key.fbx
+  artifactKey: Guid(c52f28113f5997d40ae2f59a41bd1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/key.fbx using Guid(c52f28113f5997d40ae2f59a41bd1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e21a833c4ebfaed6462bf6503739a63a') in 0.060688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/plant.fbx
+  artifactKey: Guid(dbd48656d86bbec43b1b31f6ef634bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/plant.fbx using Guid(dbd48656d86bbec43b1b31f6ef634bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c68e63d0fcdccf4beb3047ae6fba818') in 0.043405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/platform.fbx
+  artifactKey: Guid(503e3ac7092797c4d8c6dff4de8bc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/platform.fbx using Guid(503e3ac7092797c4d8c6dff4de8bc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e75cb9da06033b3b9071b2f5267b2113') in 0.039863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/ladder.fbx
+  artifactKey: Guid(9feef6574d1107e4da29c687fc0f21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/ladder.fbx using Guid(9feef6574d1107e4da29c687fc0f21da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '757ace7d5a0180172655334046fec18a') in 0.053409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/mushrooms.fbx
+  artifactKey: Guid(bb265c2128c85db498c5dae12f3235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/mushrooms.fbx using Guid(bb265c2128c85db498c5dae12f3235a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bbd56b41a6c04249df5e609f4edde50') in 0.033569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/tree-pine-small.fbx
+  artifactKey: Guid(bbb116d7b854385468940f5a85fef09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/tree-pine-small.fbx using Guid(bbb116d7b854385468940f5a85fef09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4456edeb24692afbdd41c7734e7e8562') in 0.030028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/tree-pine.fbx
+  artifactKey: Guid(0232c22656860a942977bc15a18e314a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/tree-pine.fbx using Guid(0232c22656860a942977bc15a18e314a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c4b41f4636cabed9e049dc8e8f27e5e') in 0.033650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/trap-spikes.fbx
+  artifactKey: Guid(f9bcebb9e93aac24a998ab58a7492020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/trap-spikes.fbx using Guid(f9bcebb9e93aac24a998ab58a7492020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2591e99df6dbb6f5959008493a86e028') in 0.046185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/spike-block.fbx
+  artifactKey: Guid(b6476c411eb3b564fabe7199b90366bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/spike-block.fbx using Guid(b6476c411eb3b564fabe7199b90366bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f4a9455a16094939a7e0e7f1e884540') in 0.041416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/saw.fbx
+  artifactKey: Guid(c251829b39d879943a82378825777f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/saw.fbx using Guid(c251829b39d879943a82378825777f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1dd54d2fd912ba6b7f8c1e46b1d829d') in 0.041737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/tree-pine-snow.fbx
+  artifactKey: Guid(0fbc0d63cf616de43906fb9c365be768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/tree-pine-snow.fbx using Guid(0fbc0d63cf616de43906fb9c365be768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2c6c13c1147958428f6af6a73791fc5') in 0.030963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/rocks.fbx
+  artifactKey: Guid(a928c4bde4ed12e438acf90c9757dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/rocks.fbx using Guid(a928c4bde4ed12e438acf90c9757dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eec810bfa8bcb29714c9261c8d7f3e0e') in 0.046604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/tree.fbx
+  artifactKey: Guid(a00b919de68cf2548be72a404f08720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/tree.fbx using Guid(a00b919de68cf2548be72a404f08720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd79f8e2e538ccc627679dd5c1ee89404') in 0.558275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2. & 3. svět/Models/FBX format/lever.fbx
+  artifactKey: Guid(91677f6493f55664cb68994f5dd6587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. & 3. svět/Models/FBX format/lever.fbx using Guid(91677f6493f55664cb68994f5dd6587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecd05247559ae037fe05f664eb51bdb5') in 0.094878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Vstupn�-v�stupn� operace byla p�eru�ena bu� z d�vodu ukon�en� vl�kna, nebo na ��dost aplikace.
 AssetImportWorker is now disconnected from the server

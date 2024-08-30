@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MovementToLevels : MonoBehaviour
 {
@@ -31,6 +33,8 @@ public class MovementToLevels : MonoBehaviour
     private Vector3 target;
     public float speed = 5.0f;
     public float rotationSpeed = 180.0f; // Rychlost rotace ve stupních za sekundu
+    public RectTransform panel;
+    private bool odchazi = false;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +54,19 @@ public class MovementToLevels : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (odchazi == false)
+        {
+            panel.localScale = Vector3.Lerp(panel.localScale, Vector3.zero, speed * Time.deltaTime);
+        }
+        if (player.transform.position == level && target == level)
+        {
+            odchazi = true;
+            panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
+            if (panel.localScale == new Vector3(1.01f,1.01f,1.01f))
+            {
+                SceneManager.LoadScene("WORLDSELECT");
+            }
+        }
         // Pohyb hráèe, pokud se pohybuje
         if (pohybujeSe)
         {
@@ -67,6 +84,7 @@ public class MovementToLevels : MonoBehaviour
         // Nastavení cílové pozice podle èísla úrovnì
         switch (levelNum)
         {
+            case 0: target = level; break;
             case 1: target = level1; break;
             case 2: target = level2; break;
             case 3: target = level3; break;
@@ -75,9 +93,9 @@ public class MovementToLevels : MonoBehaviour
         }
 
         // Ovládání rotace doprava
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D) && odchazi == false)
         {
-            if (levelNum < 5 && !rotuje && !pohybujeSe)
+            if (levelNum < 5)
             {
                 rotuje = true;
                 jakaRotace = doPrava;
@@ -86,9 +104,9 @@ public class MovementToLevels : MonoBehaviour
         }
 
         // Ovládání rotace doleva
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && odchazi == false)
         {
-            if (levelNum > 1 && !rotuje && !pohybujeSe)
+            if (levelNum > 0)
             {
                 rotuje = true;
                 jakaRotace = doLeva;
