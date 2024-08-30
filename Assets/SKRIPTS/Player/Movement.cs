@@ -63,4 +63,14 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(jumpCooldown);
         canJump = true;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject Coin = collision.gameObject;
+        if (Coin.CompareTag("Coin"))
+        {
+            HPSystem.coins += 5;
+            Destroy(Coin);
+        }
+    }
 }

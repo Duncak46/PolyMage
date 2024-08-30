@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class KolizeShoot : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        
+        // Znièí tento GameObject pøi kolizi s jiným objektem
         Destroy(gameObject);
     }
 }

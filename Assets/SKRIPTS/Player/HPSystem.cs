@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HPSystem : MonoBehaviour
 {
+    public static int coins = 0;
     public int health = 10;
     private bool canMinus = true;
     private SkinnedMeshRenderer objectRenderer;
@@ -52,5 +53,10 @@ public class HPSystem : MonoBehaviour
             objectRenderer.enabled = true; // Vrátí barvu na pùvodní
             yield return new WaitForSeconds(blinkDuration);
         }
+    }
+    public void AddCoin()
+    {
+        coins += 5;
+        Debug.Log(coins);
     }
 }
