@@ -12,6 +12,11 @@ public class LoadToWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            scene = "MainMenu";
+            zvetsit = true;
+        }
         if (zvetsit == false)
         {
             panel.localScale = Vector3.Lerp(panel.localScale, Vector3.zero, speed * Time.deltaTime);
