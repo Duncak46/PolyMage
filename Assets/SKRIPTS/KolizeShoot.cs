@@ -6,7 +6,6 @@ public class KolizeShoot : MonoBehaviour
 {
     void OnCollisionEnter(Collision collision)
     {
-        // Znièí tento GameObject pøi kolizi s jiným objektem
-        Destroy(gameObject);
+            Destroy(gameObject);
     }
 }

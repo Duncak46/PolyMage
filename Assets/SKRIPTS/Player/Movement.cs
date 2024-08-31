@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public static bool canMove = true;
-    public float speed = 6.0f; // Rychlost pohybu postavy
+    public float speed = 3.0f; // Rychlost pohybu postavy
     public float rotationSpeed = 720.0f; // Rychlost rotace postavy
     public float jumpForce = 5.0f; // Síla skoku
     public Transform cameraTransform; // Reference na kameru

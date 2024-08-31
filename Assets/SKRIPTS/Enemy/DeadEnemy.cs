@@ -11,6 +11,7 @@ public class DeadEnemy : MonoBehaviour
 
     public GameObject original;
     public GameObject blink;
+    public GameObject coin;
 
     private Rigidbody rb;
     private bool isDead = false;
@@ -66,6 +67,14 @@ public class DeadEnemy : MonoBehaviour
         rb.AddTorque(rotationAxis * rotationSpeed, ForceMode.VelocityChange);
 
         // Znièení objektu po urèitém èase
+        StartCoroutine(SpawnCoin());
         Destroy(gameObject, destroyDelay);
+        
+    }
+
+    IEnumerator SpawnCoin()
+    {
+        yield return new WaitForSeconds(destroyDelay-0.1f);
+        Instantiate(coin, transform.position, transform.rotation);
     }
 }

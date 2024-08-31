@@ -5,16 +5,14 @@ using UnityEngine;
 public class HPSystem : MonoBehaviour
 {
     public static int coins = 0;
-    public int health = 10;
+    public int health = 5;
     private bool canMinus = true;
     private SkinnedMeshRenderer objectRenderer;
     public float blinkDuration = 0.1f; // Délka jednoho bliknutí
     public int blinkCount = 5;
+    public GameObject MagebroW;
+    public GameObject Magebro;
 
-    void Start()
-    {
-        objectRenderer = GetComponent<SkinnedMeshRenderer>();
-    }
     public void TakeDamage(int damageAmount)
     {
         if (canMinus)
@@ -40,7 +38,7 @@ public class HPSystem : MonoBehaviour
 
     IEnumerator takingDamage()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
         canMinus = true;
         Movement.canMove = true;
     }
@@ -48,9 +46,11 @@ public class HPSystem : MonoBehaviour
     {
         for (int i = 0; i < blinkCount; i++)
         {
-            objectRenderer.enabled = false; // Nastaví barvu na blikací barvu
+            MagebroW.SetActive(true);
+            Magebro.SetActive(false);
             yield return new WaitForSeconds(blinkDuration);
-            objectRenderer.enabled = true; // Vrátí barvu na pùvodní
+            Magebro.SetActive(true);
+            MagebroW.SetActive(false);
             yield return new WaitForSeconds(blinkDuration);
         }
     }

@@ -35,6 +35,9 @@ public class RandomMovement1 : MonoBehaviour
     {
         while (true && canMove)
         {
+            // Nastavení èasovaèe
+            float elapsedTime = 0f;
+
             // Kontrola vzdálenosti k cílovému bodu
             float distanceToTarget = Vector3.Distance(transform.position, targetPosition);
 
@@ -60,6 +63,15 @@ public class RandomMovement1 : MonoBehaviour
                 while (Vector3.Distance(transform.position, targetPosition) > 0.1f)
                 {
                     transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+                    elapsedTime += Time.deltaTime; // Zvyšování èasovaèe
+
+                    // Pokud trvá pohyb pøíliš dlouho, ukonè korutinu
+                    if (elapsedTime > 5f)
+                    {
+                        Debug.Log("Pohyb trvá pøíliš dlouho, restartování korutiny.");
+                        yield break; // Ukonèí aktuální korutinu
+                    }
+
                     yield return null;
                 }
             }
@@ -69,6 +81,7 @@ public class RandomMovement1 : MonoBehaviour
             SetNewTargetPosition();
         }
     }
+
 
     IEnumerator RotateTowards(Vector3 target)
     {
