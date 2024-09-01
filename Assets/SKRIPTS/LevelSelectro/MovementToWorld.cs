@@ -32,11 +32,11 @@ public class MovementToWorld : MonoBehaviour
         level1 = level1T.position;
         level2 = level2T.position;
         level3 = level3T.position;
-        switch (levelNum)
+        switch (LevelManager.World)
         {
-            case 1: player.transform.position = level1; target = level1; break;
-            case 2: player.transform.position = level2; target = level2; break;
-            case 3: player.transform.position = level3; target = level3; break;
+            case 1: player.transform.position = level1; target = level1; levelNum = 1; break;
+            case 2: player.transform.position = level2; target = level2; levelNum = 2; break;
+            case 3: player.transform.position = level3; target = level3; levelNum = 3; break;
         }
         player.rotation = Quaternion.Euler(player.rotation.eulerAngles.x, 90f, player.rotation.eulerAngles.z);
         jakaRotace = staticke;

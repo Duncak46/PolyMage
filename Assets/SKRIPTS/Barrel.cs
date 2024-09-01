@@ -35,6 +35,7 @@ public class Barrel : MonoBehaviour
                 HP--;
                 if (HP <= 0)
                 {
+                    hasBeenHit = true;
                     SpawnCoin();
                     Destroy(gameObject);
                 }
@@ -59,7 +60,7 @@ public class Barrel : MonoBehaviour
     {
         if (hasBeenHit)
         {
-            Instantiate(coin, transform.position, transform.rotation);
+            Instantiate(coin, new Vector3(transform.position.x, transform.position.y+0.7f, transform.position.z), transform.rotation);
             hasBeenHit= false;
         }
     }

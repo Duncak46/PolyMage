@@ -14,7 +14,7 @@ public class MovementToLevels : MonoBehaviour
     private bool rotuje = false;
     private bool pohybujeSe = true;
 
-    private int levelNum = 1;
+    public int levelNum = 1;
     private Vector3 level;
     private Vector3 level1;
     private Vector3 level2;
@@ -36,6 +36,9 @@ public class MovementToLevels : MonoBehaviour
     public RectTransform panel;
     private bool odchazi = false;
 
+    
+    private bool load;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,12 +51,67 @@ public class MovementToLevels : MonoBehaviour
 
         player.transform.position = level;
         jakaRotace = staticke;
-        target = level1;
+        levelNum = LevelManager.level;
+        if (levelNum == 1) { target = level1; }
+        if (levelNum == 2) { target = level2; }
+        if (levelNum == 3) { target = level3; }
+        if (levelNum == 4) { target = level4; }
+        if (levelNum == 5) { target = level5; }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (load)
+        {
+            odchazi = true;
+            panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
+            if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
+            {
+                if (LevelManager.World == 1)
+                {
+                    if (HPSystem.health <= 0)
+                    {
+                        HPSystem.health = 3;
+                    }
+                    SceneManager.LoadScene("Level1"+LevelManager.level.ToString());
+                }
+                if (LevelManager.World == 2)
+                {
+                    if (HPSystem.health <= 0)
+                    {
+                        HPSystem.health = 3;
+                    }
+                    SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
+                }
+                if (LevelManager.World == 3)
+                {
+                    if (HPSystem.health <= 0)
+                    {
+                        HPSystem.health = 3;
+                    }
+                    SceneManager.LoadScene("Level3" + LevelManager.level.ToString());
+                }
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            switch (levelNum)
+            {
+                case 1:
+                    LevelManager.level = 1; load = true; break;
+                case 2:
+                    LevelManager.level = 2; load = true; break;
+                case 3:
+                    LevelManager.level = 3; load = true; break;
+                case 4:
+                    LevelManager.level = 4; load = true; break;
+                case 5:
+                    LevelManager.level = 5; load = true; break;
+                    
+            }
+        }
+        
         if (odchazi == false)
         {
             panel.localScale = Vector3.Lerp(panel.localScale, Vector3.zero, speed * Time.deltaTime);
@@ -62,7 +120,7 @@ public class MovementToLevels : MonoBehaviour
         {
             odchazi = true;
             panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
-            if (panel.localScale == new Vector3(1.01f,1.01f,1.01f))
+            if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
             {
                 SceneManager.LoadScene("WORLDSELECT");
             }

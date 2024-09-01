@@ -26,9 +26,9 @@ public class LoadToWorld : MonoBehaviour
             zvetsit = true;
             switch (MovementToWorld.levelNum)
             {
-                case 1: scene = "LevelSelectorW1"; break;
-                case 2: scene = "LevelSelectorW2"; break;
-                case 3: scene = "LevelSelectorW3"; break;
+                case 1: scene = "LevelSelectorW1"; LevelManager.World = 1; break;
+                case 2: scene = "LevelSelectorW2"; LevelManager.World = 2; break;
+                case 3: scene = "LevelSelectorW3"; LevelManager.World = 3; break;
             }
         }
         if (zvetsit)

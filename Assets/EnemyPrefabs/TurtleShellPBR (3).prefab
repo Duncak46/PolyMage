@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 4227207945631435253}
   m_Layer: 0
   m_Name: TurtleShellPBR (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1834,6 +1834,8 @@ MonoBehaviour:
   boundaryMax: {x: -3.689, y: -15.595}
   rotationSpeed: 160
   canMove: 1
+  jumpDistance: 2
+  jumpHeight: 2
 --- !u!114 &4227207945631435253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1852,6 +1854,7 @@ MonoBehaviour:
   destroyDelay: 1
   original: {fileID: 6260504285698511064}
   blink: {fileID: 3790272159410929027}
+  coin: {fileID: 5128222138048464976, guid: c0d9b050f04cb1749a4ddd9d64afe331, type: 3}
 --- !u!1 &7294035316053710803
 GameObject:
   m_ObjectHideFlags: 0

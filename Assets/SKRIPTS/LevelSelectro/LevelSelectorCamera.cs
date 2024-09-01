@@ -30,7 +30,12 @@ public class LevelSelectorCamera : MonoBehaviour
         level4 = level4T.position;
         level5 = level5T.position;
 
-        target = level1;
+        levelNum = LevelManager.level;
+        if (levelNum == 1) { target = level1; }
+        if (levelNum == 2) { target = level2; }
+        if (levelNum == 3) { target = level3; }
+        if (levelNum == 4) { target = level4; }
+        if (levelNum == 5) { target = level5; }
         transform.position = new Vector3(transform.position.x,transform.position.y,target.z);
     }
 
