@@ -92,6 +92,7 @@ public class MovementToLevels : MonoBehaviour
                     }
                     SceneManager.LoadScene("Level3" + LevelManager.level.ToString());
                 }
+                DoNotDestroy.inLevel = true;
             }
         }
         if (Input.GetKeyDown(KeyCode.Return))

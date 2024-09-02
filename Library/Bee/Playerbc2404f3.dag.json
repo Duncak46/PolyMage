@@ -172,7 +172,13 @@
         164,
         165,
         166,
-        167
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -334,6 +340,30 @@
       "DebugActionIndex": 13
     },
     {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/level5",
+      "DisplayName": "Copying level5",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level5"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/level5"
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/level5.resS",
+      "DisplayName": "Copying level5.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level5.resS"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/level5.resS"
+      ],
+      "DebugActionIndex": 15
+    },
+    {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/resources.assets",
       "DisplayName": "Copying resources.assets",
       "ActionType": "CopyFiles",
@@ -343,7 +373,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/resources.assets"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/resources.assets.resS",
@@ -355,7 +385,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Resources/unity_builtin_extra",
@@ -367,7 +397,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/RuntimeInitializeOnLoads.json",
@@ -379,7 +409,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/ScriptingAssemblies.json",
@@ -391,7 +421,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.assets",
@@ -403,7 +433,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.assets.resS",
@@ -415,7 +445,19 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets1.assets",
@@ -427,7 +469,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets1.assets"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets1.assets.resS",
@@ -439,7 +481,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets1.assets.resS"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets2.assets",
@@ -451,7 +493,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets2.assets.resS",
@@ -463,7 +505,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets2.assets.resS"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets3.assets",
@@ -475,7 +517,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets3.assets"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets3.assets.resS",
@@ -487,7 +529,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets3.assets.resS"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets4.assets",
@@ -499,20 +541,44 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets4.assets"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets5.assets",
+      "DisplayName": "Copying sharedassets5.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets5.assets"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets5.assets.resS",
+      "DisplayName": "Copying sharedassets5.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets.resS"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/sharedassets5.assets.resS"
+      ],
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 17669,
+      "PayloadLength": 18045,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -534,6 +600,8 @@
         "Library/PlayerDataCache/Win64/Data/level3.resS",
         "Library/PlayerDataCache/Win64/Data/level4",
         "Library/PlayerDataCache/Win64/Data/level4.resS",
+        "Library/PlayerDataCache/Win64/Data/level5",
+        "Library/PlayerDataCache/Win64/Data/level5.resS",
         "Library/PlayerDataCache/Win64/Data/resources.assets",
         "Library/PlayerDataCache/Win64/Data/resources.assets.resS",
         "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra",
@@ -541,6 +609,7 @@
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets2.assets",
@@ -548,6 +617,8 @@
         "Library/PlayerDataCache/Win64/Data/sharedassets3.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets3.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets4.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets.resS",
         "C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -620,6 +691,7 @@
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
@@ -697,12 +769,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        28
+        33
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/boot.config",
@@ -715,9 +787,9 @@
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        29
+        34
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AIModule.dll",
@@ -729,7 +801,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ARModule.dll",
@@ -741,7 +813,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -753,7 +825,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -765,7 +837,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -777,7 +849,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -789,7 +861,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AudioModule.dll",
@@ -801,7 +873,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClothModule.dll",
@@ -813,7 +885,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -825,7 +897,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -837,7 +909,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -849,7 +921,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.CoreModule.dll",
@@ -861,7 +933,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -873,7 +945,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -885,7 +957,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -897,7 +969,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GIModule.dll",
@@ -909,7 +981,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -921,7 +993,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GridModule.dll",
@@ -933,7 +1005,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -945,7 +1017,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -957,7 +1029,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -969,7 +1041,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -981,7 +1053,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.InputModule.dll",
@@ -993,7 +1065,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1005,7 +1077,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1017,7 +1089,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1029,7 +1101,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1041,7 +1113,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1053,7 +1125,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1065,7 +1137,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1077,7 +1149,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1089,7 +1161,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -1101,7 +1173,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1113,7 +1185,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1125,7 +1197,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1137,7 +1209,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1149,7 +1221,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1161,7 +1233,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1173,7 +1245,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1185,7 +1257,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1197,7 +1269,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1209,7 +1281,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1221,7 +1293,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1233,7 +1305,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1245,7 +1317,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1257,7 +1329,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1269,7 +1341,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1281,7 +1353,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1293,7 +1365,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UIModule.dll",
@@ -1305,7 +1377,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1317,7 +1389,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1329,7 +1401,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1341,7 +1413,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1353,7 +1425,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1365,7 +1437,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1377,7 +1449,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1389,7 +1461,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1401,7 +1473,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1413,7 +1485,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1425,7 +1497,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1437,7 +1509,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1449,7 +1521,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VRModule.dll",
@@ -1461,7 +1533,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1473,7 +1545,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1485,7 +1557,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1497,7 +1569,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.WindModule.dll",
@@ -1509,7 +1581,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.XRModule.dll",
@@ -1521,7 +1593,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.dll",
@@ -1533,7 +1605,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Assembly-CSharp.dll",
@@ -1545,7 +1617,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -1557,7 +1629,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -1569,7 +1641,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -1581,7 +1653,19 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.AI.Navigation.dll",
+      "DisplayName": "Copying Unity.AI.Navigation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
+      ],
+      "Outputs": [
+        "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.AI.Navigation.dll"
+      ],
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Burst.dll",
@@ -1593,7 +1677,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1605,7 +1689,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UI.dll",
@@ -1617,7 +1701,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
@@ -1629,7 +1713,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1641,7 +1725,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -1653,7 +1737,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Timeline.dll",
@@ -1665,7 +1749,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -1677,7 +1761,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Mathematics.dll",
@@ -1689,7 +1773,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.TextMeshPro.dll",
@@ -1701,7 +1785,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -1713,7 +1797,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1725,7 +1809,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1737,7 +1821,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Burst.Unsafe.dll",
@@ -1749,7 +1833,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Unity.Burst.Unsafe.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Runtime.dll",
@@ -1761,7 +1845,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/netstandard.dll",
@@ -1773,7 +1857,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Mono.Security.dll",
@@ -1785,7 +1869,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1797,7 +1881,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Configuration.dll",
@@ -1809,7 +1893,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Core.dll",
@@ -1821,7 +1905,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1833,7 +1917,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Data.dll",
@@ -1845,7 +1929,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Drawing.dll",
@@ -1857,7 +1941,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.EnterpriseServices.dll",
@@ -1869,7 +1953,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1881,7 +1965,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.IO.Compression.dll",
@@ -1893,7 +1977,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Net.Http.dll",
@@ -1905,7 +1989,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Numerics.dll",
@@ -1917,7 +2001,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Runtime.Serialization.dll",
@@ -1929,7 +2013,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Security.dll",
@@ -1941,7 +2025,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1953,7 +2037,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Transactions.dll",
@@ -1965,7 +2049,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Xml.Linq.dll",
@@ -1977,7 +2061,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Xml.dll",
@@ -1989,7 +2073,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.dll",
@@ -2001,7 +2085,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/mscorlib.dll",
@@ -2013,14 +2097,14 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 17875,
-      "PayloadLength": 15877,
+      "PayloadOffset": 18251,
+      "PayloadLength": 15979,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
       "Inputs": [
@@ -2096,6 +2180,7 @@
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "C:/Users/petrd/Documents/GitHub/PolyMage/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
@@ -2166,7 +2251,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -2179,22 +2264,22 @@
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Plugins/x86_64/lib_burst_generated.dll"
       ],
       "ToBuildDependencies": [
-        139
+        145
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 33841,
+      "PayloadOffset": 34319,
       "PayloadLength": 24,
       "PayloadDebugContentSnippet": "DeHeArts Studio\nPolyMage",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/app.info",
@@ -2207,9 +2292,9 @@
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/app.info"
       ],
       "ToBuildDependencies": [
-        141
+        147
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Resources/unity default resources",
@@ -2221,7 +2306,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage.exe",
@@ -2233,7 +2318,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/PolyMage.exe"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -2245,7 +2330,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2257,7 +2342,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2269,7 +2354,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2281,7 +2366,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2293,7 +2378,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2305,7 +2390,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2317,7 +2402,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2329,7 +2414,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2341,7 +2426,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2353,7 +2438,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2365,7 +2450,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2377,7 +2462,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2389,7 +2474,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2401,7 +2486,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2413,7 +2498,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2425,7 +2510,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2437,7 +2522,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2449,7 +2534,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/config",
@@ -2461,7 +2546,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2473,7 +2558,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/UnityCrashHandler64.exe",
@@ -2485,7 +2570,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles C:/Users/petrd/Desktop/PolyMage Demos/V1/UnityPlayer.dll",
@@ -2497,7 +2582,7 @@
       "Outputs": [
         "C:/Users/petrd/Desktop/PolyMage Demos/V1/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "Player",
@@ -2532,11 +2617,11 @@
         25,
         26,
         27,
+        28,
+        29,
         30,
         31,
         32,
-        33,
-        34,
         35,
         36,
         37,
@@ -2641,13 +2726,13 @@
         136,
         137,
         138,
+        139,
         140,
+        141,
         142,
         143,
         144,
-        145,
         146,
-        147,
         148,
         149,
         150,
@@ -2666,10 +2751,16 @@
         163,
         164,
         165,
-        166
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 167
+      "DebugActionIndex": 173
     }
   ],
   "FileSignatures": [
@@ -2874,7 +2965,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 167
+          "Player": 173
         }
 ,  "DefaultNodes": [
     0

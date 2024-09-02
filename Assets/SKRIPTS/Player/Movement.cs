@@ -99,6 +99,7 @@ public class Movement : MonoBehaviour
                         case 2: scene = "LevelSelectorW2"; break;
                         case 3: scene = "LevelSelectorW3"; break;
                     }
+                    DoNotDestroy.inLevel = false;
                     SceneManager.LoadScene(scene);
                 }
             }

@@ -102,6 +102,7 @@ public class HPSystem : MonoBehaviour
             panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), 5 * Time.deltaTime);
             if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
             {
+                DoNotDestroy.inLevel = false;
                 switch (LevelManager.World)
                 {
                     case 1: SceneManager.LoadScene("LevelSelectorW1"); break;
