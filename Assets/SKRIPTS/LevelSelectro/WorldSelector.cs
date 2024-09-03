@@ -22,12 +22,8 @@ public class WorldSelector : MonoBehaviour
         level1 = level1T.position;
         level2 = level2T.position;
         level3 = level3T.position;
-        switch (MovementToWorld.levelNum)
-        {
-            case 1: target = level1; levelNum = 1; break;
-            case 2: target = level2; levelNum = 2; break;
-            case 3: target = level3; levelNum = 3; break;
-        }
+        target = level1; 
+        levelNum = 1;
         transform.position = new Vector3(transform.position.x,transform.position.y,target.z);
     }
 

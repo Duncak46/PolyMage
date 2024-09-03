@@ -63,7 +63,7 @@ public class MovementToLevels : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(load);
+        Debug.Log(LevelManager.level);
         if (load)
         {
             if (LevelManager.level <= LevelManager.unlockedLevel && LevelManager.World == 1
