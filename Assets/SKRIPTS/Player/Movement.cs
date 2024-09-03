@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class Movement : MonoBehaviour
 {
@@ -104,6 +105,14 @@ public class Movement : MonoBehaviour
                         LevelManager.World++;
                         LevelManager.level = 1;
                         //pøidání podmínky že když je to treti world tak jsou titulky
+                    }
+                    string filePath;
+                    switch (MainMenu.save)
+                    {
+                        case 1: filePath = Path.Combine(MainMenu.currentDirectory, "data1.txt"); File.WriteAllText(filePath, LevelManager.unlockedLevel.ToString()); break;
+                        case 2: filePath = Path.Combine(MainMenu.currentDirectory, "data2.txt"); File.WriteAllText(filePath, LevelManager.unlockedLevel.ToString()); break;
+                        case 3: filePath = Path.Combine(MainMenu.currentDirectory, "data3.txt"); File.WriteAllText(filePath, LevelManager.unlockedLevel.ToString()); break;
+                        
                     }
                     switch (LevelManager.World)
                     {

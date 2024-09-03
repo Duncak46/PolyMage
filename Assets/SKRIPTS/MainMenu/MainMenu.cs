@@ -1,11 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 using static UnityEngine.Rendering.DebugUI;
+using System.Diagnostics;
 
 public class MainMenu : MonoBehaviour
 {
+    //SAVES
+    public static string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+    public static int save = 0;
+
+    public TMP_Text save1;
+    public TMP_Text save2;
+    public TMP_Text save3;
+
+
     string Which = "Menu";
     public float speed = 5f;
     private bool zvetsit = false;
@@ -50,6 +63,62 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (zvetsit == false)
+        {
+            if (File.Exists(Path.Combine(currentDirectory, "data1.txt")) && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) > 0)
+            {
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) < 6 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) > 0)
+                {
+                    save1.text = "1 - 0" + File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"));
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) < 11 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) > 5)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) - 5;
+                    save1.text = "2 - 0" + pomoc;
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) < 16 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) > 10)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data1.txt"))) - 10;
+                    save1.text = "3 - 0" + pomoc;
+                }
+            }
+            if (File.Exists(Path.Combine(currentDirectory, "data2.txt")) && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) > 0)
+            {
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) < 6 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) > 0)
+                {
+                    save2.text = "1 - 0" + File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"));
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) < 11 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) > 5)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) - 5;
+                    save2.text = "2 - 0" + pomoc;
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) < 16 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) > 10)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data2.txt"))) - 10;
+                    save2.text = "3 - 0" + pomoc;
+                }
+            }
+            if (File.Exists(Path.Combine(currentDirectory, "data3.txt")) && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) > 0)
+            {
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) < 6 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) > 0)
+                {
+                    save3.text = "1 - 0" + File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"));
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) < 11 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) > 5)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) - 5;
+                    save3.text = "2 - 0" + pomoc;
+                }
+                if (int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) < 16 && int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) > 10)
+                {
+                    int pomoc = int.Parse(File.ReadAllText(Path.Combine(currentDirectory, "data3.txt"))) - 10;
+                    save3.text = "3 - 0" + pomoc;
+                }
+            }
+        }
+        
+        //ok
         if (zvetsit)
         {
             panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
@@ -123,16 +192,55 @@ public class MainMenu : MonoBehaviour
     public void Empty1()
     {
         //Uložení
+        string filePath = Path.Combine(currentDirectory, "data1.txt");
+        if (!File.Exists(filePath)) 
+        {
+            File.WriteAllText(filePath, "1");
+            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
+            {
+                CreateNoWindow = true,
+                UseShellExecute = false
+            };
+            Process.Start(processInfo);
+        }
+        LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        save = 1;
         zvetsit = true;
     }
     public void Empty2()
     {
         //Uložení
+        string filePath = Path.Combine(currentDirectory, "data2.txt");
+        if (!File.Exists(filePath))
+        {
+            File.WriteAllText(filePath, "1");
+            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
+            {
+                CreateNoWindow = true,
+                UseShellExecute = false
+            };
+            Process.Start(processInfo);
+        }
+        LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        save = 2;
         zvetsit = true;
     }
     public void Empty3()
     {
         //Uložení
+        string filePath = Path.Combine(currentDirectory, "data3.txt");
+        if (!File.Exists(filePath))
+        {
+            File.WriteAllText(filePath, "1");
+            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
+            {
+                CreateNoWindow = true,
+                UseShellExecute = false
+            };
+            Process.Start(processInfo);
+        }
+        LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        save = 3;
         zvetsit = true;
     }
 }
