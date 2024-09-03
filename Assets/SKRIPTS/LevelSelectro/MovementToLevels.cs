@@ -38,6 +38,7 @@ public class MovementToLevels : MonoBehaviour
 
     
     private bool load;
+    private int pomocna;
 
     // Start is called before the first frame update
     void Start()
@@ -68,27 +69,38 @@ public class MovementToLevels : MonoBehaviour
             panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
             if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
             {
+                
                 if (LevelManager.World == 1)
                 {
-                    if (HPSystem.health <= 0)
+                    if (LevelManager.level >= LevelManager.unlockedLevel)
                     {
-                        HPSystem.health = 3;
+                        if (HPSystem.health <= 0)
+                        {
+                            HPSystem.health = 3;
+                        }
+                        SceneManager.LoadScene("Level1" + LevelManager.level.ToString());
                     }
-                    SceneManager.LoadScene("Level1"+LevelManager.level.ToString());
+                    
                 }
                 if (LevelManager.World == 2)
                 {
-                    if (HPSystem.health <= 0)
+                    if (LevelManager.level >= LevelManager.unlockedLevel - 5)
                     {
-                        HPSystem.health = 3;
+                        if (HPSystem.health <= 0)
+                        {
+                            HPSystem.health = 3;
+                        }
+                        SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
                     }
-                    SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
                 }
                 if (LevelManager.World == 3)
                 {
-                    if (HPSystem.health <= 0)
+                    if (LevelManager.level >= LevelManager.unlockedLevel - 10)
                     {
-                        HPSystem.health = 3;
+                        if (HPSystem.health <= 0)
+                        {
+                            HPSystem.health = 3;
+                        }
                     }
                     SceneManager.LoadScene("Level3" + LevelManager.level.ToString());
                 }

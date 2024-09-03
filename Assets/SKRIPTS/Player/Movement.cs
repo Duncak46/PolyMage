@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
     public static bool canMove = true;
-    public float speed = 3.0f; // Rychlost pohybu postavy
+    public float speed = 5.0f; // Rychlost pohybu postavy
     public float rotationSpeed = 720.0f; // Rychlost rotace postavy
     public float jumpForce = 5.0f; // Síla skoku
     public Transform cameraTransform; // Reference na kameru
@@ -86,6 +86,18 @@ public class Movement : MonoBehaviour
                 if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
                 {
                     string scene = "";
+                    if (LevelManager.World == 1)
+                    {
+                        LevelManager.unlockedLevel = LevelManager.level + 1;
+                    }
+                    if (LevelManager.World == 2)
+                    {
+                        LevelManager.unlockedLevel = LevelManager.level + 6;
+                    }
+                    if (LevelManager.World == 3)
+                    {
+                        LevelManager.unlockedLevel = LevelManager.level + 11;
+                    }
                     LevelManager.level++;
                     if (LevelManager.level == 6)
                     {
