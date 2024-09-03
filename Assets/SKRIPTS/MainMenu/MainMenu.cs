@@ -196,12 +196,6 @@ public class MainMenu : MonoBehaviour
         if (!File.Exists(filePath)) 
         {
             File.WriteAllText(filePath, "1");
-            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
-            {
-                CreateNoWindow = true,
-                UseShellExecute = false
-            };
-            Process.Start(processInfo);
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
         save = 1;
@@ -214,12 +208,6 @@ public class MainMenu : MonoBehaviour
         if (!File.Exists(filePath))
         {
             File.WriteAllText(filePath, "1");
-            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
-            {
-                CreateNoWindow = true,
-                UseShellExecute = false
-            };
-            Process.Start(processInfo);
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
         save = 2;
@@ -232,12 +220,6 @@ public class MainMenu : MonoBehaviour
         if (!File.Exists(filePath))
         {
             File.WriteAllText(filePath, "1");
-            ProcessStartInfo processInfo = new ProcessStartInfo("attrib", "+h \"" + filePath + "\"")
-            {
-                CreateNoWindow = true,
-                UseShellExecute = false
-            };
-            Process.Start(processInfo);
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
         save = 3;
