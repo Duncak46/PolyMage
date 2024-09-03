@@ -63,49 +63,60 @@ public class MovementToLevels : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(load);
         if (load)
         {
-            odchazi = true;
-            panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
-            if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
+            if (LevelManager.level <= LevelManager.unlockedLevel && LevelManager.World == 1
+                || LevelManager.level <= LevelManager.unlockedLevel - 5 && LevelManager.World == 2
+                || LevelManager.level <= LevelManager.unlockedLevel - 10 && LevelManager.World == 3)
             {
-                
-                if (LevelManager.World == 1)
+                odchazi = true;
+                panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(1.01f, 1.01f, 1.01f), speed * Time.deltaTime);
+                if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
                 {
-                    if (LevelManager.level >= LevelManager.unlockedLevel)
+
+                    if (LevelManager.World == 1)
                     {
-                        if (HPSystem.health <= 0)
+                        if (LevelManager.level <= LevelManager.unlockedLevel)
                         {
-                            HPSystem.health = 3;
+                            if (HPSystem.health <= 0)
+                            {
+                                HPSystem.health = 3;
+                            }
+                            SceneManager.LoadScene("Level1" + LevelManager.level.ToString());
                         }
-                        SceneManager.LoadScene("Level1" + LevelManager.level.ToString());
+
                     }
-                    
-                }
-                if (LevelManager.World == 2)
-                {
-                    if (LevelManager.level >= LevelManager.unlockedLevel - 5)
+                    if (LevelManager.World == 2)
                     {
-                        if (HPSystem.health <= 0)
+                        if (LevelManager.level >= LevelManager.unlockedLevel - 5)
                         {
-                            HPSystem.health = 3;
-                        }
-                        SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
-                    }
-                }
-                if (LevelManager.World == 3)
-                {
-                    if (LevelManager.level >= LevelManager.unlockedLevel - 10)
-                    {
-                        if (HPSystem.health <= 0)
-                        {
-                            HPSystem.health = 3;
+                            if (HPSystem.health <= 0)
+                            {
+                                HPSystem.health = 3;
+                            }
+                            SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
                         }
                     }
-                    SceneManager.LoadScene("Level3" + LevelManager.level.ToString());
+                    if (LevelManager.World == 3)
+                    {
+                        if (LevelManager.level >= LevelManager.unlockedLevel - 10)
+                        {
+                            if (HPSystem.health <= 0)
+                            {
+                                HPSystem.health = 3;
+                            }
+                        }
+                        SceneManager.LoadScene("Level3" + LevelManager.level.ToString());
+                    }
+                    DoNotDestroy.inLevel = true;
                 }
-                DoNotDestroy.inLevel = true;
             }
+            else
+            {
+                load = false;
+            }
+            
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
