@@ -87,24 +87,17 @@ public class Movement : MonoBehaviour
                 if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
                 {
                     string scene = "";
-                    if (LevelManager.World == 1)
+                    if (LevelManager.World == 1 && LevelManager.unlockedLevel == LevelManager.level)
                     {
                         LevelManager.unlockedLevel = LevelManager.level + 1;
                     }
-                    if (LevelManager.World == 2)
+                    if (LevelManager.World == 2 && LevelManager.unlockedLevel == LevelManager.level + 5)
                     {
                         LevelManager.unlockedLevel = LevelManager.level + 6;
                     }
-                    if (LevelManager.World == 3)
+                    if (LevelManager.World == 3 && LevelManager.unlockedLevel == LevelManager.level + 10)
                     {
                         LevelManager.unlockedLevel = LevelManager.level + 11;
-                    }
-                    LevelManager.level++;
-                    if (LevelManager.level == 6)
-                    {
-                        LevelManager.World++;
-                        LevelManager.level = 1;
-                        //pøidání podmínky že když je to treti world tak jsou titulky
                     }
                     string filePath;
                     switch (MainMenu.save)
@@ -113,6 +106,13 @@ public class Movement : MonoBehaviour
                         case 2: filePath = Path.Combine(MainMenu.currentDirectory, "data2.txt"); File.WriteAllText(filePath, LevelManager.unlockedLevel.ToString()); break;
                         case 3: filePath = Path.Combine(MainMenu.currentDirectory, "data3.txt"); File.WriteAllText(filePath, LevelManager.unlockedLevel.ToString()); break;
                         
+                    }
+                    LevelManager.level++;
+                    if (LevelManager.level == 6)
+                    {
+                        LevelManager.World++;
+                        LevelManager.level = 1;
+                        //pøidání podmínky že když je to treti world tak jsou titulky
                     }
                     switch (LevelManager.World)
                     {

@@ -46,6 +46,8 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 0;
         startPosSave = Save.anchoredPosition;
         startPosMenu = mainMenu.anchoredPosition;
         startPosSettings = Settings.anchoredPosition;

@@ -10,6 +10,7 @@ public class Barrel : MonoBehaviour
     public GameObject coin;
     private bool canDestroy;
     private int HP = 5;
+    bool justOne = true;
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class Barrel : MonoBehaviour
             if (shoot.CompareTag("Fire"))
             {
                 HP--;
-                if (HP <= 0)
+                if (HP <= 0 && justOne)
                 {
                     hasBeenHit = true;
                     SpawnCoin();
@@ -62,6 +63,7 @@ public class Barrel : MonoBehaviour
         {
             Instantiate(coin, new Vector3(transform.position.x, transform.position.y+0.7f, transform.position.z), transform.rotation);
             hasBeenHit= false;
+            justOne = false;
         }
     }
 }
