@@ -79,10 +79,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -110,6 +108,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
@@ -149,6 +148,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
@@ -551,6 +551,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7362}
     - Class: 114
+      Script: {instanceID: 7462}
+    - Class: 114
       Script: {instanceID: 7472}
     - Class: 114
       Script: {instanceID: 7500}
@@ -603,13 +605,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 210488}
+      Script: {instanceID: 36736}
     - Class: 114
-      Script: {instanceID: 294492}
+      Script: {instanceID: 112788}
     - Class: 114
-      Script: {instanceID: 294494}
+      Script: {instanceID: 112790}
     - Class: 114
-      Script: {instanceID: 294496}
+      Script: {instanceID: 112792}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
