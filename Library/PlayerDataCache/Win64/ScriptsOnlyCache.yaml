@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeSystem.Editor.ReadmeEditor
     Assembly-CSharp.dll:
     - Barrel
     - CameraControl
@@ -16,6 +18,7 @@ ScriptsOnlyBuild:
     - MovementToLevels
     - MovementToWorld
     - RandomMovement1
+    - ReadmeSystem.Readme
     - Shoot1
     - ShowLevel
     - Spikes
@@ -605,13 +608,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 36736}
+      Script: {instanceID: 35556}
     - Class: 114
-      Script: {instanceID: 112788}
+      Script: {instanceID: 109520}
     - Class: 114
-      Script: {instanceID: 112790}
+      Script: {instanceID: 109522}
     - Class: 114
-      Script: {instanceID: 112792}
+      Script: {instanceID: 109524}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
