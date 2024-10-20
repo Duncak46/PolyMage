@@ -58,6 +58,10 @@ public class HPSystem : MonoBehaviour
             case 4: heart1.SetActive(true); heart2.SetActive(true); heart3.SetActive(true); heart4.SetActive(true); heart5.SetActive(false); break;
             case 5: heart1.SetActive(true); heart2.SetActive(true); heart3.SetActive(true); heart4.SetActive(true); heart5.SetActive(true); break;
         }
+        if (health < 0)
+        {
+            heart1.SetActive(false); heart2.SetActive(false); heart3.SetActive(false); heart4.SetActive(false); heart5.SetActive(false); Die();
+        }
     }
     private void Die()
     {
