@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DoNotDestroy : MonoBehaviour
@@ -51,12 +52,18 @@ public class DoNotDestroy : MonoBehaviour
     {
         if (inLevel && !JustOne)
         {
-            // Pøidat jestli je to boss nebo ne
-            game.Play();
+            if (SceneManager.GetActiveScene().name == "Level35" || SceneManager.GetActiveScene().name == "Level25" || SceneManager.GetActiveScene().name == "Level15")
+            {
+                boss.Play();
+            }
+            else if(SceneManager.GetActiveScene().name == "Level34" || SceneManager.GetActiveScene().name == "Level24" || SceneManager.GetActiveScene().name == "Level14" || SceneManager.GetActiveScene().name == "Level33" || SceneManager.GetActiveScene().name == "Level23" || SceneManager.GetActiveScene().name == "Level13" || SceneManager.GetActiveScene().name == "Level32" || SceneManager.GetActiveScene().name == "Level22" || SceneManager.GetActiveScene().name == "Level12" || SceneManager.GetActiveScene().name == "Level31" || SceneManager.GetActiveScene().name == "Level21" || SceneManager.GetActiveScene().name == "Level11")
+            {
+                game.Play();
+            }
             JustOne = true;
             menu.Stop();
         }
-
+        
         if (!inLevel && JustOne)
         {
             menu.Play();

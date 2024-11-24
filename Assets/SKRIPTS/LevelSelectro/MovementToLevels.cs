@@ -75,7 +75,7 @@ public class MovementToLevels : MonoBehaviour
                 if (panel.localScale == new Vector3(1.01f, 1.01f, 1.01f))
                 {
 
-                    if (LevelManager.World == 1)
+                    if (SceneManager.GetActiveScene().name == "LevelSelectorW1")
                     {
                         if (LevelManager.level <= LevelManager.unlockedLevel)
                         {
@@ -87,9 +87,9 @@ public class MovementToLevels : MonoBehaviour
                         }
 
                     }
-                    if (LevelManager.World == 2)
+                    if (SceneManager.GetActiveScene().name == "LevelSelectorW2")
                     {
-                        if (LevelManager.level >= LevelManager.unlockedLevel - 5)
+                        if (LevelManager.level <= LevelManager.unlockedLevel - 5)
                         {
                             if (HPSystem.health <= 0)
                             {
@@ -98,9 +98,9 @@ public class MovementToLevels : MonoBehaviour
                             SceneManager.LoadScene("Level2" + LevelManager.level.ToString());
                         }
                     }
-                    if (LevelManager.World == 3)
+                    if (SceneManager.GetActiveScene().name == "LevelSelectorW3")
                     {
-                        if (LevelManager.level >= LevelManager.unlockedLevel - 10)
+                        if (LevelManager.level <= LevelManager.unlockedLevel - 10)
                         {
                             if (HPSystem.health <= 0)
                             {
