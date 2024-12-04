@@ -1,0 +1,1606 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'cs' Physical Memory: 7530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/petrd/Documents/GitHub/PolyMage
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51256
+Successfully changed project path to: C:/Users/petrd/Documents/GitHub/PolyMage
+C:/Users/petrd/Documents/GitHub/PolyMage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15588] Host "[IP] 192.168.1.104 [Port] 0 [Flags] 2 [Guid] 4129966589 [EditorId] 4129966589 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15588] Host "[IP] 192.168.1.104 [Port] 0 [Flags] 2 [Guid] 4129966589 [EditorId] 4129966589 [Version] 1048832 [Id] WindowsEditor(7,Duny-Lenovo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 32.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/petrd/Documents/GitHub/PolyMage/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3765 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024121 seconds.
+- Loaded All Assemblies, in  1.062 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1857ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (173ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (457ms)
+				TypeCache.ScanAssembly (419ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (468ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.878 seconds
+Refreshing native plugins compatible for Editor in 37.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.Assembly:GetTypes <0x00085>
+	  at System.Reflection.Assembly:GetTypes <0x00019>
+	  at <GetTypesSafely>d__35:MoveNext <0x0008f>
+	  at Unity.VisualScripting.RuntimeCodebase:.cctor <0x005f6>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at Unity.VisualScripting.FullSerializer.fsSerializer:.cctor <0x0037a>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at Unity.VisualScripting.SerializationOperation:.ctor <0x000a2>
+	  at Unity.VisualScripting.Serialization:StartOperation <0x000d2>
+	  at Unity.VisualScripting.Serialization:DeserializeInto <0x0009a>
+	  at Unity.VisualScripting.Serialization:Deserialize <0x0005a>
+	  at Unity.VisualScripting.EditorPrefMetadata:Load <0x00102>
+	  at Unity.VisualScripting.PluginConfigurationItemMetadata:.ctor <0x004e2>
+	  at Unity.VisualScripting.EditorPrefMetadata:.ctor <0x0002a>
+	  at <>c__DisplayClass244_0:<EditorPref>b__0 <0x0005a>
+	  at Unity.VisualScripting.Metadata:Dig <0x0034a>
+	  at Unity.VisualScripting.Metadata:EditorPref <0x00142>
+	  at Unity.VisualScripting.PluginConfiguration:LoadEditorPrefs <0x0036a>
+	  at Unity.VisualScripting.PluginConfiguration:Load <0x00022>
+	  at Unity.VisualScripting.PluginConfiguration:Initialize <0x00052>
+	  at Unity.VisualScripting.PluginContainer:Initialize <0x022ce>
+	  at Unity.VisualScripting.PluginContainer:InitializeOnLoad <0x00032>
+	  at Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls <0x00102>
+	  at Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed <0x000da>
+	  at Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed <0x000b2>
+	  at Unity.VisualScripting.VSUsageUtility:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00069>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x0003a>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x008da>
+	  at <Module>:runtime_invoke_void_object <0x00087>
+=================================================================
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.749 seconds
+Domain Reload Profiling: 5618ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1493ms)
+		LoadAssemblies (957ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (673ms)
+			TypeCache.Refresh (591ms)
+				TypeCache.ScanAssembly (540ms)
+			ScanForSourceGeneratedMonoScriptInfo (56ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (3031ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 12.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 5721.
+Memory consumption went from 226.5 MB to 225.8 MB.
+Total: 20.584600 ms (FindLiveObjects: 0.881600 ms CreateObjectMapping: 0.568600 ms MarkObjects: 18.051000 ms  DeleteObjects: 1.081100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101639.366080 seconds.
+  path: Assets/kenney_coaster-kit/Preview.png
+  artifactKey: Guid(b5937218a434d9b44b90fece63ded99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Preview.png using Guid(b5937218a434d9b44b90fece63ded99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1377ee04f18a25bf228a38da433cd24') in 0.090290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.800491 seconds.
+  path: Assets/kenney_coaster-kit/Models
+  artifactKey: Guid(6d3a12a2e64faaf45a7a01a6a862c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models using Guid(6d3a12a2e64faaf45a7a01a6a862c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e51d67b85f2ad159452ccc92367aa6f') in 0.001430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.563902 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format
+  artifactKey: Guid(c4132eb8d7329224b9b8b34d9f678459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format using Guid(c4132eb8d7329224b9b8b34d9f678459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54edf408540d2b73d86d04524d0dc64d') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078377 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/bench.obj
+  artifactKey: Guid(1bc581d400ff2e949b028967116507d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/bench.obj using Guid(1bc581d400ff2e949b028967116507d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38a5b0390924892d5127a57e7d7de2dd') in 0.161619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-corner-large-ramp.obj
+  artifactKey: Guid(805f37a6f9d78174f846ce8c70ca4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-corner-large-ramp.obj using Guid(805f37a6f9d78174f846ce8c70ca4bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67038addcc42ece9115ac5ed4fcc73b6') in 0.039349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-bump-down.obj
+  artifactKey: Guid(4bb37005462d4dc45911782974781179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-bump-down.obj using Guid(4bb37005462d4dc45911782974781179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2a9ee6599e7798a54cb277b5b868b4a') in 0.038156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.503564 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-hill-complete.obj
+  artifactKey: Guid(3d1d9576725843745b5f2c367fdabded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-hill-complete.obj using Guid(3d1d9576725843745b5f2c367fdabded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79ebd42c6d168aad83059fac0eaea5ac') in 0.049217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.444139 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-skew-left-side.obj
+  artifactKey: Guid(3d7f60226e79d1e46b0dcc7333e3891d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-flume-straight-skew-left-side.obj using Guid(3d7f60226e79d1e46b0dcc7333e3891d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7940b4bd346b1baaf995c19f6873d1e') in 0.039763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.351833 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-cap-back.obj
+  artifactKey: Guid(5efdf9cf35a64874a828028ce69aa278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-cap-back.obj using Guid(5efdf9cf35a64874a828028ce69aa278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5535200521ddebf971ac9b4356c7e253') in 0.042046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.338419 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-corner-small.obj
+  artifactKey: Guid(fe67f61e040d2364182458c96bb255d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-corner-small.obj using Guid(fe67f61e040d2364182458c96bb255d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e833102e71bbf3a0dadf1c26d5aa4d11') in 0.042285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001578 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-segment.obj
+  artifactKey: Guid(783ba19b61b568e438169d61c546d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-segment.obj using Guid(783ba19b61b568e438169d61c546d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb27d94ed65906b87a23103de9a93142') in 0.036405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.285207 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-bump-down.obj
+  artifactKey: Guid(a18918c2e83dd514abcd00b0299aa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-bump-down.obj using Guid(a18918c2e83dd514abcd00b0299aa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fde8cf2087b5234dbdb599dfd54c097b') in 0.037788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.462341 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-hill-complete-half.obj
+  artifactKey: Guid(143c41db8dbfd924080f9903cbf6f785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-hill-complete-half.obj using Guid(143c41db8dbfd924080f9903cbf6f785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05fe773506eb3c1d2d6d69f92bb0621a') in 0.035165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.136404 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-skew-right.obj
+  artifactKey: Guid(0ad3762ced1c8b1438e256b6995c1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-hanging-straight-skew-right.obj using Guid(0ad3762ced1c8b1438e256b6995c1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83ed4b0c67c6745062a67983628235f7') in 0.038459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.484025 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-cap-front.obj
+  artifactKey: Guid(5d9d7386b45b58749a524acb4626d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-cap-front.obj using Guid(5d9d7386b45b58749a524acb4626d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c267b03b131989fdf0c94209566ca31') in 0.041119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-curve.obj
+  artifactKey: Guid(3fbd0d6a8248f864d9b834fccd7238ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-curve.obj using Guid(3fbd0d6a8248f864d9b834fccd7238ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a091a8e947921bb564f2dbca887fa33') in 0.032822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.326692 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight.obj
+  artifactKey: Guid(597603cfff879b94fa7d2a4e2f20d184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight.obj using Guid(597603cfff879b94fa7d2a4e2f20d184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '185c9fb9b11abdfcab503dce9d90487c') in 0.050100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.274614 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-bump-up.obj
+  artifactKey: Guid(3e5312c69be24544b93433437789bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-bump-up.obj using Guid(3e5312c69be24544b93433437789bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1d4f6b841440a00d88606706ecd4f43') in 0.049002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.582546 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-hill-end.obj
+  artifactKey: Guid(8f19a101b8ec0794eaec14e49b5c5fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-hill-end.obj using Guid(8f19a101b8ec0794eaec14e49b5c5fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4132468d7e471f3dd1e117659a5692d') in 0.040229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.360741 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-skew-right-side.obj
+  artifactKey: Guid(7e22678569e87f0499e0dcfdaf1b0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-monorail-straight-skew-right-side.obj using Guid(7e22678569e87f0499e0dcfdaf1b0884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1ff0df6e0a072b05fa3c907dfc0973d') in 0.045930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.349658 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-corner-large.obj
+  artifactKey: Guid(0d8c68add309f164d832faddf676c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-corner-large.obj using Guid(0d8c68add309f164d832faddf676c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd18e76d01a42da90422ab2506a368d10') in 0.038285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.479614 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-curve.obj
+  artifactKey: Guid(a6913e7684876a346abc244ce3283ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-curve.obj using Guid(a6913e7684876a346abc244ce3283ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afb57dab7302e7b1f40c058abe7352cd') in 0.042219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.447522 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-bend.obj
+  artifactKey: Guid(5303887e77babb34a985bc7bb9d6a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-bend.obj using Guid(5303887e77babb34a985bc7bb9d6a67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34e9b2dbdc89d0e73f4032a069db71d6') in 0.034580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-hill-beginning.obj
+  artifactKey: Guid(77fe38dfff0ac6c48880c0bad36e6b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-hill-beginning.obj using Guid(77fe38dfff0ac6c48880c0bad36e6b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '085df00f44459db289715d18a11e785c') in 0.034397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.259373 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-skew-left.obj
+  artifactKey: Guid(cb9a4559e239bcc43abfcea095a96233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-straight-skew-left.obj using Guid(cb9a4559e239bcc43abfcea095a96233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e33f00d406a4201066346a7ad46bcaff') in 0.036220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.311635 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-track.obj
+  artifactKey: Guid(f8d5af4e7e5f4fa40a309a7452410f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-mouse-track.obj using Guid(f8d5af4e7e5f4fa40a309a7452410f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6ceeee9dd8648ec68560ddc46d5d658') in 0.037612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.035262 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-corner-large-ramp.obj
+  artifactKey: Guid(468e885734c59354d8ee14f2f81a39af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-corner-large-ramp.obj using Guid(468e885734c59354d8ee14f2f81a39af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc96fe9212be80514914c320dc613c2b') in 0.033770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.336362 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-looping.obj
+  artifactKey: Guid(64848bd8ad77516499611d71cade9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-looping.obj using Guid(64848bd8ad77516499611d71cade9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f3e49fd7ebd19e846dc615033ae3013') in 0.037003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.278909 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-bend-large.obj
+  artifactKey: Guid(2766da494ba04b54d914ee7b1ef81c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-bend-large.obj using Guid(2766da494ba04b54d914ee7b1ef81c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd629b81e21261d30db93e2973a546b3') in 0.036762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.304149 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-hill-complete.obj
+  artifactKey: Guid(d4793dfa3f29cdf4aa26fcfda62e3bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-hill-complete.obj using Guid(d4793dfa3f29cdf4aa26fcfda62e3bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d6f54d65325e76f868a9e432cefbef0') in 0.044485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.023226 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-skew-left-side.obj
+  artifactKey: Guid(ea3bd471b8fe09743ac32ec842669648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-steel-straight-skew-left-side.obj using Guid(ea3bd471b8fe09743ac32ec842669648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5599539ec6a7e4ff207855489d1eaf98') in 0.040739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.315013 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-train.obj
+  artifactKey: Guid(0d57c21160b301e47a9df0e95e407839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-train.obj using Guid(0d57c21160b301e47a9df0e95e407839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71021a14114ae38719c36dc68017d788') in 0.039425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.283191 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-train-wooden.obj
+  artifactKey: Guid(f865340b214a13348a8de03d31a0a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-train-wooden.obj using Guid(f865340b214a13348a8de03d31a0a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8174498b9b700432ba6a3c40dd8389d') in 0.035247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.308947 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-corner-small-ramp.obj
+  artifactKey: Guid(cd682340a37523844a6f193bc626db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-corner-small-ramp.obj using Guid(cd682340a37523844a6f193bc626db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a91ae5165c6f9f836545cb6c5179e0ab') in 0.049862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.531498 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight.obj
+  artifactKey: Guid(953a69a9ebd96ac4eaeddf56383bc6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight.obj using Guid(953a69a9ebd96ac4eaeddf56383bc6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ea809d20b4aa4986634a4eb1bdf727d') in 0.036838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.691916 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-bump-up.obj
+  artifactKey: Guid(8f5e3d27353556e4f904e2755aa4837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-bump-up.obj using Guid(8f5e3d27353556e4f904e2755aa4837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44414ee350144d9770b4a72878d91f49') in 0.041860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.755193 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-hill-end.obj
+  artifactKey: Guid(6267959973842e144a03349db31aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-hill-end.obj using Guid(6267959973842e144a03349db31aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cddca1b733ca663ca1390f17c8e16a4') in 0.038986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.478604 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-skew-right-side.obj
+  artifactKey: Guid(a14934a578d9f4d49bb0b93615f97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/coaster-wood-straight-skew-right-side.obj using Guid(a14934a578d9f4d49bb0b93615f97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bfbf48dd6e0e9a8adfee706acf92a113') in 0.039141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.350268 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/park-entrance.obj
+  artifactKey: Guid(cc15471a1f867e44b9e467d3eaf2f825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/park-entrance.obj using Guid(cc15471a1f867e44b9e467d3eaf2f825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f46018a5b63dc024ec13efdf494599ca') in 0.039699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.282788 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/path-split.obj
+  artifactKey: Guid(9e81853e70a487142b8fcef33b7f8fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/path-split.obj using Guid(9e81853e70a487142b8fcef33b7f8fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '553b1d46523ef05fecdca97a45bfaf4f') in 0.037743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/queue-crossing.obj
+  artifactKey: Guid(0dde6c90fea856b4e9157a674602a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/queue-crossing.obj using Guid(0dde6c90fea856b4e9157a674602a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd70267a3682c73bf47c27bcb0b5958b') in 0.034947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.495499 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/queue-straight.obj
+  artifactKey: Guid(bc8599d659d427346afa5f376480fe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/queue-straight.obj using Guid(bc8599d659d427346afa5f376480fe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '352de9c64c2f3a928fedd95776fbd9a4') in 0.037430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.147096 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/stall-food.obj
+  artifactKey: Guid(ac128bdbe46f4c044a3cbe59b1322777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/stall-food.obj using Guid(ac128bdbe46f4c044a3cbe59b1322777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1d4505638874365d0d4598e51837930') in 0.038298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.332392 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/station-fence.obj
+  artifactKey: Guid(9ee88affddf0e204197bbf60edc0aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/station-fence.obj using Guid(9ee88affddf0e204197bbf60edc0aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e02f9a1ac299a09d7ddf10d032d5af1') in 0.038384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.786485 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/support-large-horizontal.obj
+  artifactKey: Guid(da18884f7c8db67409c2b1df97c4cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/support-large-horizontal.obj using Guid(da18884f7c8db67409c2b1df97c4cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ee5ed385f7a3dc42284a9e310b81613') in 0.038583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 34.378525 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/support-large-bottom.fbx
+  artifactKey: Guid(a55822e44b968fa41a1c1f61631f1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/support-large-bottom.fbx using Guid(a55822e44b968fa41a1c1f61631f1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7b3e6c91ec66e9626cc1c0a3b3ee0d1') in 0.027980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/support-small.fbx
+  artifactKey: Guid(93f79c72cebe6e548ac9c55aab692594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/support-small.fbx using Guid(93f79c72cebe6e548ac9c55aab692594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bd9cf9493622f919bf23cff72cc915d') in 0.035360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/support-small-horizontal.fbx
+  artifactKey: Guid(eb73e40b8ca158347af92f5e1bd2cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/support-small-horizontal.fbx using Guid(eb73e40b8ca158347af92f5e1bd2cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd955076bacb968a25529f463df670b39') in 0.030569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/trash.fbx
+  artifactKey: Guid(312b9b5187465b54f810a355393b9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/trash.fbx using Guid(312b9b5187465b54f810a355393b9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90926eb4a245a538c527ec447ec642f5') in 0.031022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 39.943055 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/support-small.obj
+  artifactKey: Guid(b4e71a69c452b124f89b7cef8b105a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/support-small.obj using Guid(b4e71a69c452b124f89b7cef8b105a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea04bf7be7ccd1b835c369b89c276de4') in 0.033468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 30.674952 seconds.
+  path: Assets/kenney_coaster-kit/Models/GLB format
+  artifactKey: Guid(c45a0cceac371064cba512ef7b7c4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/GLB format using Guid(c45a0cceac371064cba512ef7b7c4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e89dcf8bfd9780207f2629a53339205') in 0.001852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148156 seconds.
+  path: Assets/kenney_coaster-kit/Models/GLB format/Textures
+  artifactKey: Guid(1b205d182887409498ab68106d3d726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/GLB format/Textures using Guid(1b205d182887409498ab68106d3d726b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '248de2cfe7a13f01325a3d2226da91a0') in 0.000923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039593 seconds.
+  path: Assets/kenney_coaster-kit/Models/GLB format/Textures/colormap.png
+  artifactKey: Guid(d6b2c50110d76d24c9011a4fdf023f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/GLB format/Textures/colormap.png using Guid(d6b2c50110d76d24c9011a4fdf023f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e47edcc06c89f8c84e7c92e708160b7') in 0.011774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.268594 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/stall-drinks.fbx
+  artifactKey: Guid(be523807180a1414696e23548812ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/stall-drinks.fbx using Guid(be523807180a1414696e23548812ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86dc10eaa00b8a30a8c511ed1f455de2') in 0.026397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.014103 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/station-fence.fbx
+  artifactKey: Guid(7070a2d35fa9f8445b8b3611b2447314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/station-fence.fbx using Guid(7070a2d35fa9f8445b8b3611b2447314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82f911cd13e9036b77da1f470497d7ec') in 0.030473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/support-large.fbx
+  artifactKey: Guid(525d6dba6f757fa46a1cf3feca9ed706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/support-large.fbx using Guid(525d6dba6f757fa46a1cf3feca9ed706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7283ea1a60bce0f462c88b5e882f357d') in 0.039701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/station-gate.fbx
+  artifactKey: Guid(b5370357ca808b34f983ac3a68d7d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/station-gate.fbx using Guid(b5370357ca808b34f983ac3a68d7d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7abad9d288a5ffec49726cb0fcd46128') in 0.149396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 9.383387 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/queue-crossing.fbx
+  artifactKey: Guid(182306bf31a433f4794f285bc7095beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/queue-crossing.fbx using Guid(182306bf31a433f4794f285bc7095beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b982cee75acd2eb8408308c2cdbb64a') in 0.026109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/ride-exit.fbx
+  artifactKey: Guid(0ccdb244481c400419a61dba24abb644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/ride-exit.fbx using Guid(0ccdb244481c400419a61dba24abb644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f3c762c6cf62a6b169a3de4a9692462') in 0.044329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/queue-straight.fbx
+  artifactKey: Guid(d56b0228b8f91584db47cb7787f73155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/queue-straight.fbx using Guid(d56b0228b8f91584db47cb7787f73155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c743f32f9f6318b1a2a9ec8074c6264') in 0.036076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/path-split.fbx
+  artifactKey: Guid(01fb8a68fa8d0a74a8b4d9358cb7858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/path-split.fbx using Guid(01fb8a68fa8d0a74a8b4d9358cb7858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c443f3fce2896c5bdb416a5a3d673ca') in 0.030535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/path-corner.fbx
+  artifactKey: Guid(eed712266e3fdd8499ef344918ff60ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/path-corner.fbx using Guid(eed712266e3fdd8499ef344918ff60ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4b9f2c75ba4fdc056a678d5673a491d') in 0.037087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/path-exit.fbx
+  artifactKey: Guid(0e1b8e43a6098b9469604a8c8f5a710d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/path-exit.fbx using Guid(0e1b8e43a6098b9469604a8c8f5a710d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '965711d528416eea7d2c815087dad5dc') in 0.042996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.479982 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight-hill-end.fbx
+  artifactKey: Guid(cc067a2136fc4aa4a8059296a6bfcb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight-hill-end.fbx using Guid(cc067a2136fc4aa4a8059296a6bfcb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49ef897fefaba0e5f72c8f2283b32e4b') in 0.026375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-track.fbx
+  artifactKey: Guid(eb2371259fe56b649a533b43bca10192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-track.fbx using Guid(eb2371259fe56b649a533b43bca10192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04e45a053df335d682a2e1726ff8e3cc') in 0.036619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.402756 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight.fbx
+  artifactKey: Guid(8349c828ee262ae4f82222b8cf92354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight.fbx using Guid(8349c828ee262ae4f82222b8cf92354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74f067a555afb65949479fc55c38175b') in 0.026675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight-hill-beginning.fbx
+  artifactKey: Guid(926cd319bd95cc049a85abad799629d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-straight-hill-beginning.fbx using Guid(926cd319bd95cc049a85abad799629d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38c1c25eaf896df036a47d28bad2f2eb') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.326529 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-train-wooden.fbx
+  artifactKey: Guid(6df7c8e88fcb9794eb678fe7045af29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-train-wooden.fbx using Guid(6df7c8e88fcb9794eb678fe7045af29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f5676495c1b42a874c36184c7e75beb') in 0.052277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-curve.fbx
+  artifactKey: Guid(33aa09bdeb059c6409045fe18b3dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-wood-curve.fbx using Guid(33aa09bdeb059c6409045fe18b3dcc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bdfd01e4a73465f1ad7421f5a3cc7bd') in 0.026069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.272272 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-skew-left-side.fbx
+  artifactKey: Guid(4ee3f179b0fd6ec4e90b40513bd7bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-skew-left-side.fbx using Guid(4ee3f179b0fd6ec4e90b40513bd7bab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '810e9669194f62f356b48e294e63734e') in 0.025752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-track.fbx
+  artifactKey: Guid(06e1ddca1b28f0e48bc753c14a234038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-track.fbx using Guid(06e1ddca1b28f0e48bc753c14a234038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd89bb3fee07851fc06cf2d4bafd5857e') in 0.033258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.181824 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-bend-large.fbx
+  artifactKey: Guid(57f68f835a0792045b8f46ec11affe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-bend-large.fbx using Guid(57f68f835a0792045b8f46ec11affe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fd6db929b74066f8324a38bbed13d2b') in 0.025175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-hill-complete-half.fbx
+  artifactKey: Guid(27ed717a95e91ac4e813bd07085918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-straight-hill-complete-half.fbx using Guid(27ed717a95e91ac4e813bd07085918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccc4be9614747c068412bcfd39d778ee') in 0.034232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.047162 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-corner-large-ramp.fbx
+  artifactKey: Guid(7549f9a67e5aa9c46867c724d0913eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-corner-large-ramp.fbx using Guid(7549f9a67e5aa9c46867c724d0913eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0493c139fed270d459a5ff487b868ec') in 0.027548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-curve.fbx
+  artifactKey: Guid(23be4855162e44545b21eea7d600c3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-curve.fbx using Guid(23be4855162e44545b21eea7d600c3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '349f758c9386085956a859159925891b') in 0.031596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.379106 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-skew-left.fbx
+  artifactKey: Guid(0c53725ef43c27f47ac57491d6a77518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-skew-left.fbx using Guid(0c53725ef43c27f47ac57491d6a77518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac75f9640365e13a34045551cfe29a0a') in 0.024844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-cap-back.fbx
+  artifactKey: Guid(365fbc4c9bd945149a28e4e5d1641dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-steel-cap-back.fbx using Guid(365fbc4c9bd945149a28e4e5d1641dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47c5f746d43e80fcc56e680e13ecce1c') in 0.037754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.197207 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-bend.fbx
+  artifactKey: Guid(d4da5650c8edfda4cb33f62297b71970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-bend.fbx using Guid(d4da5650c8edfda4cb33f62297b71970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1695abf7bfca9910a6ae4ea44ff8685f') in 0.027786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-hill-complete.fbx
+  artifactKey: Guid(6ec8594b982d5fb4a9f99f5bb4d184cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-straight-hill-complete.fbx using Guid(6ec8594b982d5fb4a9f99f5bb4d184cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eef813ae7b5ed8f065b7752eaddc0ba4') in 0.028857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.035360 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-corner-large.fbx
+  artifactKey: Guid(119963cecc8a11045be9907b439307c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-corner-large.fbx using Guid(119963cecc8a11045be9907b439307c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bfd403d5c1152ed7334a3e7b5d8097d') in 0.027869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-curve.fbx
+  artifactKey: Guid(4af1b8803c4c95b419e388fe43ef5087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-mouse-curve.fbx using Guid(4af1b8803c4c95b419e388fe43ef5087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e10ba1c0a4e4cceb2cc731f963f1fd1') in 0.025756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.297074 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight-hill-end.fbx
+  artifactKey: Guid(541680d7af4ed944d91c03dde7006800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight-hill-end.fbx using Guid(541680d7af4ed944d91c03dde7006800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f87e69bb3b042fd3d3826571ace8a722') in 0.036222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-track.fbx
+  artifactKey: Guid(aff8738c251a9f34d85c37a82d86a567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-track.fbx using Guid(aff8738c251a9f34d85c37a82d86a567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5eb1707d9f17a15182e7a1f4fe56d9b0') in 0.034903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight.fbx
+  artifactKey: Guid(3234260204ceb3f438129f6eede44980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight.fbx using Guid(3234260204ceb3f438129f6eede44980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47d323be193644f863fb9837c8b1f89a') in 0.029693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight-bump-down.fbx
+  artifactKey: Guid(bfecd5ec1ee43094faffb69911cd2010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-straight-bump-down.fbx using Guid(bfecd5ec1ee43094faffb69911cd2010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '932cdbf2b4b36bedcb56efcd4505d6c6') in 0.032295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.340207 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-cap-front.fbx
+  artifactKey: Guid(5e84a30f5b27344409c1d64b3f84fbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-cap-front.fbx using Guid(5e84a30f5b27344409c1d64b3f84fbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fbfc2155bd723ab7ff3508ba928685f') in 0.024944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-curve.fbx
+  artifactKey: Guid(290fe40fc3af8004cb4cd0fdff616ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-monorail-curve.fbx using Guid(290fe40fc3af8004cb4cd0fdff616ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5426daf3ae9ab027b9db4f6f8a4f11d1') in 0.034351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.058959 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-hill-complete-half.fbx
+  artifactKey: Guid(07bcb3d1988f8b24aba8b4edacc55660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-hill-complete-half.fbx using Guid(07bcb3d1988f8b24aba8b4edacc55660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '487e7270542905508dc30d4398cc8776') in 0.027221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-skew-left-side.fbx
+  artifactKey: Guid(330520fb79db63044bfc297e749c152c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-skew-left-side.fbx using Guid(330520fb79db63044bfc297e749c152c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60364fa917d267f193bb5e293aa97441') in 0.035125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.256696 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-segment.fbx
+  artifactKey: Guid(0fbfde88c572550418f5850f179f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-segment.fbx using Guid(0fbfde88c572550418f5850f179f6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd74f06aa95d6c3ce27d976bb818adc37') in 0.029958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-bump-down.fbx
+  artifactKey: Guid(c73f7f864e5d00f428ab4bced9c1258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-straight-bump-down.fbx using Guid(c73f7f864e5d00f428ab4bced9c1258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8db7d4870f09c1100a52acaa7f3f575f') in 0.034637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.219365 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-cap-back.fbx
+  artifactKey: Guid(6412b562e92d307409b825ecf4b9c7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-cap-back.fbx using Guid(6412b562e92d307409b825ecf4b9c7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc13ad9ac430cb947adeb1ea95399400') in 0.027535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-corner-small-ramp.fbx
+  artifactKey: Guid(62de6b36afd04e94fb2c97f2c5922301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-hanging-corner-small-ramp.fbx using Guid(62de6b36afd04e94fb2c97f2c5922301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de5b5e42286d92423bbab0197df89893') in 0.029470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.070815 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-hill-complete.fbx
+  artifactKey: Guid(cf8e92a9619522241abc7e8181b17eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-hill-complete.fbx using Guid(cf8e92a9619522241abc7e8181b17eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '858cd85cf2104681e59d06da7d8891b1') in 0.027623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-skew-left-side.fbx
+  artifactKey: Guid(b96a8f9c18ad93449b8df8d7be9a12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-skew-left-side.fbx using Guid(b96a8f9c18ad93449b8df8d7be9a12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecb80767d9ac17acdf72afa22d455d18') in 0.030884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.094875 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-looping.fbx
+  artifactKey: Guid(3284562e2825fbc45add7d000fbf9552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-looping.fbx using Guid(3284562e2825fbc45add7d000fbf9552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68bbc773d3faabf06f6f580566825a75') in 0.026812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-bend-large.fbx
+  artifactKey: Guid(be7518d483a55f8448cc53283c6869a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-straight-bend-large.fbx using Guid(be7518d483a55f8448cc53283c6869a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f27df9778fcf3a2b309e7d9bd451add6') in 0.030524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.281138 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-cap-back.fbx
+  artifactKey: Guid(142b385fbead68b42be48c9c29176f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-cap-back.fbx using Guid(142b385fbead68b42be48c9c29176f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c7a7114adde03c609d9206941c62055') in 0.034735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-corner-large-ramp.fbx
+  artifactKey: Guid(cfc80f506846ef8429e572afad6bddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/FBX format/coaster-flume-corner-large-ramp.fbx using Guid(cfc80f506846ef8429e572afad6bddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4ea8e88f5e8f9b2b2f7ecd13dfbd8ee') in 0.033746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 660.671780 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/support-small-horizontal.obj
+  artifactKey: Guid(c3537a3c295d70946a68d802c3b3b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/support-small-horizontal.obj using Guid(c3537a3c295d70946a68d802c3b3b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61fa5b1be0248e3771d92a58b74b1d74') in 0.080198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.715301 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/support-small-skew-bottom.obj
+  artifactKey: Guid(895bb14a15f8df34f882884e017b0340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/support-small-skew-bottom.obj using Guid(895bb14a15f8df34f882884e017b0340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d6f122e8fbe37307c38603dd7dc0551') in 0.041530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/train-monorail.obj
+  artifactKey: Guid(8849437a30c5f2246972b6ef4abc9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/train-monorail.obj using Guid(8849437a30c5f2246972b6ef4abc9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5859a0064f9752494dee17c4e7ac748') in 0.037401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.285475 seconds.
+  path: Assets/kenney_coaster-kit/Models/OBJ format/tree.obj
+  artifactKey: Guid(d9decde3f9a585040987f980922aa74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_coaster-kit/Models/OBJ format/tree.obj using Guid(d9decde3f9a585040987f980922aa74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d6c7957253e2d219030971e3459880f') in 0.043326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 52.306449 seconds.
+  path: Assets/OSTNY/Models/FBX format/coin-bronze.fbx
+  artifactKey: Guid(ea0494a703452c54190c36ef9d070d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OSTNY/Models/FBX format/coin-bronze.fbx using Guid(ea0494a703452c54190c36ef9d070d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '109d1470b1366cd0659dcf5c3f157dc2') in 0.028347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/OSTNY/Models/FBX format/coin-gold.fbx
+  artifactKey: Guid(86998793e6ae6f048bca3f9a49ae6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OSTNY/Models/FBX format/coin-gold.fbx using Guid(86998793e6ae6f048bca3f9a49ae6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4deb7c928be8978bddd9f8dda874864') in 0.032906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/OSTNY/Previews/coin-gold.png
+  artifactKey: Guid(6be88005a5b08ad49944235cb4ebef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OSTNY/Previews/coin-gold.png using Guid(6be88005a5b08ad49944235cb4ebef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b35ed298a2c95a5bc777b393f7be80b3') in 0.056743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/OSTNY/Models/OBJ format/coin-gold.obj
+  artifactKey: Guid(578da85ddf5b56e41bf8c221f7a057ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OSTNY/Models/OBJ format/coin-gold.obj using Guid(578da85ddf5b56e41bf8c221f7a057ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eae10195f319b9427b91065bdd643a6') in 0.036496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 34.226070 seconds.
+  path: Assets/PREFABS MODELS MAP/SELECTOR/MAPAW2.prefab
+  artifactKey: Guid(7103cd029e442c34988e1ce241f62eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS MODELS MAP/SELECTOR/MAPAW2.prefab using Guid(7103cd029e442c34988e1ce241f62eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2c9cf509cd60921870a1a602658c35f') in 0.077117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 826
+========================================================================
+Received Import Request.
+  Time since last request: 91.477141 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(5e310472ad48f6f4f84e0d2230183096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(5e310472ad48f6f4f84e0d2230183096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24c7631e69d97b270b35969e19407809') in 0.002558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.543029 seconds.
+  path: Assets/Scenes/Helper.unity
+  artifactKey: Guid(f13100c426f4f874db9c3ece73212683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Helper.unity using Guid(f13100c426f4f874db9c3ece73212683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46c046173a42fc6e3d0c1b5b46687cfc') in 0.001360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
