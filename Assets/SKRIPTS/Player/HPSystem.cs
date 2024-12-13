@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class HPSystem : MonoBehaviour
 {
     public TMP_Text coiny;
-    public static int coins = 0;
+    public static int coins = 1000;
     public static int health = 3;
     private bool canMinus = true;
     private SkinnedMeshRenderer objectRenderer;

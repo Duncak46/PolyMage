@@ -22,6 +22,7 @@ public class Movement : MonoBehaviour
     public GameObject parentObject;
     bool konec;
     public bool mrtvej;
+    public static bool pohyb = true;
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class Movement : MonoBehaviour
     float elapsedTime = 0;
     void Update()
     {
-        if (!konec && !mrtvej)
+        if (!konec && !mrtvej && pohyb)
         {
             panel.localScale = Vector3.Lerp(panel.localScale, new Vector3(0,0,0), 5 * Time.deltaTime);
             // Získání vstupu z klávesnice

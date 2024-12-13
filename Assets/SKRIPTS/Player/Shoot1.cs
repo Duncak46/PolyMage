@@ -207,7 +207,7 @@ public class Shoot1 : MonoBehaviour
     void Shoots()
     {
         StopAllCoroutines();
-        if (power > 0)
+        if (power > 0 && Movement.pohyb)
         {
             isShooting = true;
             // Vytvoøení instance prefabu støely na pozici a rotaci firePointu
