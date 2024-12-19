@@ -133,23 +133,22 @@ public class SelectItemInShop : MonoBehaviour
                         MagicLevel++;
                     }
                 }
-                /* ZBRANE BUY
                 if (choosedPanel == 3)
                 {
-                    if (pokud se zbran nerovna kterou jiz ma)
+                    if (Shoot1.whichshoot == 2)
                     {
                         HPSystem.coins -= HowMuchMinus;
-                        MagicLevel++;
+                        Shoot1.whichshoot = 1;
                     }
                 }
                 if (choosedPanel == 4)
                 {
-                    if (pokud se zbran nerovna kterou jiz ma)
+                    if (Shoot1.whichshoot == 1)
                     {
                         HPSystem.coins -= HowMuchMinus;
-                        MagicLevel++;
+                        Shoot1.whichshoot = 2;
                     }
-                }*/
+                }
             }
         }
 

@@ -31,9 +31,12 @@ public class Shoot1 : MonoBehaviour
     private Renderer pw10;
 
 
-
+    public static int whichshoot = 1;
     public GameObject bulletPrefab;
     public Transform firePoint;
+
+    public Transform firePointDouble2;
+    public Transform firePointDouble1;
     public float bulletSpeed = 7f;
 
     public static bool isShooting = false;
@@ -57,7 +60,14 @@ public class Shoot1 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightControl))
         {
-            Shoots();
+            if (whichshoot == 1)
+            {
+                Shoots();
+            }
+            if (whichshoot == 2)
+            {
+                DoubleShoots();
+            }
         }
         if (power == 0)
         {
@@ -203,7 +213,35 @@ public class Shoot1 : MonoBehaviour
             pw10.material = yellow;
         }
     }
+    void DoubleShoots()
+    {
+        StopAllCoroutines();
+        if (power > 0 && Movement.pohyb)
+        {
+            isShooting = true;
+            // Vytvoøení instance prefabu støely na pozici a rotaci firePointu
+            GameObject bullet = Instantiate(bulletPrefab, firePointDouble1.position, firePointDouble1.rotation);
+            GameObject bullet2 = Instantiate(bulletPrefab, firePointDouble2.position, firePointDouble2.rotation);
 
+            // Získání Rigidbody komponenty vytvoøené støely
+            Rigidbody bulletRigidbody1 = bullet.GetComponent<Rigidbody>();
+            Rigidbody bulletRigidbody2 = bullet2.GetComponent<Rigidbody>();
+
+            // Pokud má støela Rigidbody komponentu
+            if (bulletRigidbody1 != null)
+            {
+                // Nastavení rychlosti støely
+                bulletRigidbody1.velocity = firePointDouble1.forward * bulletSpeed;
+            }
+            if (bulletRigidbody2 != null)
+            {
+                // Nastavení rychlosti støely
+                bulletRigidbody2.velocity = firePointDouble2.forward * bulletSpeed;
+            }
+            power--;
+        }
+        StartCoroutine(Wait());
+    }
     void Shoots()
     {
         StopAllCoroutines();
@@ -237,4 +275,5 @@ public class Shoot1 : MonoBehaviour
             power++;
         }
     }
+    
 }
