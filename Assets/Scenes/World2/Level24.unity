@@ -1940,6 +1940,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 162746340}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &123735631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 123735632}
+  m_Layer: 0
+  m_Name: Point TS Double
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &123735632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123735631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.75, y: 0.517, z: 1.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7498142189947559216}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &124866776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,7 +3418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &238105124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7200,8 +7231,8 @@ MonoBehaviour:
   PW10: {fileID: 1521260952}
   bulletPrefab: {fileID: 7631962920916759128, guid: b773582e94576a445b1d1e2707f936e3, type: 3}
   firePoint: {fileID: 1845509173}
-  firePointDouble2: {fileID: 0}
-  firePointDouble1: {fileID: 0}
+  firePointDouble2: {fileID: 123735632}
+  firePointDouble1: {fileID: 1398473618}
   bulletSpeed: 7
 --- !u!1001 &481279062
 PrefabInstance:
@@ -21720,6 +21751,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382453114}
   m_Mesh: {fileID: -5287425419667122880, guid: 1f0cabe764c2007459d278b1135691d5, type: 3}
+--- !u!1 &1398473617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398473618}
+  m_Layer: 0
+  m_Name: Point TS Double (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398473618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398473617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75, y: 0.517, z: 1.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7498142189947559216}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1400372661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26993,7 +27055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1732623064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35809,6 +35871,8 @@ Transform:
   m_Children:
   - {fileID: 1845509173}
   - {fileID: 6699776497278616956}
+  - {fileID: 123735632}
+  - {fileID: 1398473618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!136 &7498142189947559217

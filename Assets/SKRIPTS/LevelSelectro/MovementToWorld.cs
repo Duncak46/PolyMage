@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MovementToWorld : MonoBehaviour
 {
+    public TMP_Text levelNumber;
     private float doLeva = 180f;
     private float doPrava = 0f;
     private float staticke = 90f;
@@ -62,9 +64,9 @@ public class MovementToWorld : MonoBehaviour
         // Nastavení cílové pozice podle èísla úrovnì
         switch (levelNum)
         {
-            case 1: target = level1; break;
-            case 2: target = level2; break;
-            case 3: target = level3; break;
+            case 1: target = level1; levelNumber.text = "FLORALIS"; break;
+            case 2: target = level2; levelNumber.text = "SAHARMUS"; break;
+            case 3: target = level3; levelNumber.text = "ICSNOEWE"; break;
         }
 
         // Ovládání rotace doprava

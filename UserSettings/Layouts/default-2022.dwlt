@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1763
+  controlID: 21568
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 1764
+  controlID: 21569
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 1765
+  controlID: 21570
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1865
+  controlID: 21577
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -826,9 +826,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2378.6343, y: 683.6638, z: 54.1754}
+    m_Target: {x: -5.055664, y: 1.6626227, z: 2.1306067}
     speed: 2
-    m_Value: {x: 2378.6343, y: 683.6638, z: 54.1754}
+    m_Value: {x: -5.055664, y: 1.6626227, z: 2.1306067}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -874,13 +874,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.13474856, y: 0.3016532, z: -0.060066313, w: 0.94352084}
+    m_Target: {x: -0.23694836, y: 0.21885157, z: -0.038050517, w: -0.94736844}
     speed: 2
-    m_Value: {x: -0.13474856, y: -0.3016532, z: 0.060066313, w: -0.94352084}
+    m_Value: {x: -0.23694836, y: 0.21885157, z: -0.038050517, w: -0.9473684}
   m_Size:
-    m_Target: 440.7053
+    m_Target: 2.6796167
     speed: 2
-    m_Value: 440.7053
+    m_Value: 2.6796167
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3320,9 +3320,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 94a5ffff1edfffff18faffffcc6f0000e4840000d8ab00007eac000002090100560f0100
+      m_SelectedIDs: 4e4e0700
+      m_LastClickedID: 478798
+      m_ExpandedIDs: 3013f9ff8e15f9ff361ff9ff2e43f9ff904cf9ff0460f9ffa465f9ff7866f9ff346af9ff5c71f9ff8873f9ff3c81f9ff4484f9ffba8ef9ff8e96f9ff9699f9ff4cc8f9ff3cecf9ffe0fff9ffa618fafff42efaff9a3bfaff805bfaff0e7dfaff449bfaff24b7faff6ec8faffc0ecfaffb401fbff761cfbff8034fbff4046fbff7e5efbff7479fbff9c8efbff0cb3fbff22c0fbff70d6fbff36effbff2a0afcff2c23fcff5638fcfff05cfcff707dfcfffe9efcff3cc5fcff40e5fcff3a07fdff0c26fdffb442fdffd456fdff1674fdff4c92fdff68b0fdff3cd0fdff5af1fdff6efffdff1e17feff1e31feffe845feffd46afeff3a7ffeffea98feff38affeffdac6feff42d4fefffcf4feff6017ffff6c36ffff0e53ffff4c65ffff768affffdc9fffff82bbffff4cc9fffffae1ffff18faffff02ad0000dab80000d6dd00003807010010270100303e0100aa510100b6680100b67e01001294010034aa010076ce010078190200ee420200e6620200e69202006abc020076ee02001013030036290300123e03000a6903001e7c03002e8f0300a099030094a403000aaf0300e8be030050e403002ef4030048140400aa2d04005446040046910400189d0400e4ac0400febc040056d6040018ef04007ef004000af40400befa04000af5050042f50500dcf60500e2230600d657060056710600787c0600d09e0600ecc7060072db0600c40d070066240700d62c0700ac510700
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3416,7 +3416,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 43992
+  m_LastSelectedObjectID: 469368
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3462,7 +3462,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/LevelSelect
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -3470,16 +3470,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/LevelSelect
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\petrd\Documents\GitHub\PolyMage
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 481}
-    m_SelectedIDs: ae930000
-    m_LastClickedID: 37806
-    m_ExpandedIDs: 00000000ac930000b0930000b2930000b4930000b6930000b8930000ba930000be930000c0930000c2930000c493000000ca9a3b
+    m_SelectedIDs: 50940000
+    m_LastClickedID: 37968
+    m_ExpandedIDs: 0000000086930000889300008a9300008c9300008e93000090930000929300009493000096930000989300009a9300002694000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3507,7 +3507,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac930000ae930000b0930000b2930000b4930000b6930000b8930000ba930000bc930000be930000c0930000c2930000c493000000ca9a3b
+    m_ExpandedIDs: 0000000086930000889300008a9300008c9300008e93000090930000929300009493000096930000989300009a93000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3534,7 +3534,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0e15020028e90000a6250300aa2503000000000016820000bc7f0000e0b50000be700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
