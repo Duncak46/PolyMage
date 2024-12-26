@@ -33,7 +33,6 @@ public class HPSystem : MonoBehaviour
     {
         if (canMinus)
         {
-            Movement.canMove = false;
             canMinus = false;
             StartCoroutine(takingDamage());
             health -= damageAmount;
@@ -68,8 +67,8 @@ public class HPSystem : MonoBehaviour
         Movement movementScript = rb.gameObject.GetComponent<Movement>();
         if (movementScript != null)
         {
+            Movement.canMove = false;
             movementScript.mrtvej = true;
-            
         }
 
 
@@ -119,9 +118,8 @@ public class HPSystem : MonoBehaviour
 
     IEnumerator takingDamage()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(1f);
         canMinus = true;
-        Movement.canMove = true;
     }
     IEnumerator Blink()
     {
