@@ -48,7 +48,7 @@ public class Hammer : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         GoDown = true;
 
-        yield return RotateToAngle(270f);
+        yield return RotateToAngle(255f);
 
         // Rotace z 90 zpìt na 180
         yield return RotateToAngle(180f);
@@ -59,7 +59,7 @@ public class Hammer : MonoBehaviour
     {
         while (Mathf.Abs(transform.rotation.eulerAngles.z - targetAngle) > 0.1f)
         {
-            float newAngle = Mathf.LerpAngle(transform.rotation.eulerAngles.z, targetAngle, Time.deltaTime * 2f);
+            float newAngle = Mathf.LerpAngle(transform.rotation.eulerAngles.z, targetAngle, Time.deltaTime * 10f);
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, newAngle);
             yield return null;
         }

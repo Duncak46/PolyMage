@@ -1,0 +1,57 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spining : MonoBehaviour
+{
+    private float rotationSpeed = 150f;
+    // Start is called before the first frame update
+    int damage = 1;
+    public GameObject playerNONE;
+    public float forceMagnitude = 1f;
+    public float verticalForceMultiplier = 2f; // Pøidaný faktor pro zvýšení odhození po ose Z
+    public Rigidbody playerRigidbody;
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject player = collision.gameObject;
+
+        if (player.CompareTag("Player"))
+        {
+            HPSystem playerHealth = playerNONE.GetComponent<HPSystem>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+
+            Vector3 contactPoint = collision.GetContact(0).point;
+            Vector3 normalDirection = collision.GetContact(0).normal;
+
+            if (playerRigidbody != null)
+            {
+                Vector3 forceDirection;
+
+                // Kontrola, zda kolize pøišla shora
+                if (normalDirection.y < -0.5f) // Detekce, jestli normála smìøuje pøevážnì nahoru
+                {
+                    // Odhození po ose Z (stranou) místo osy Y, aby hráè nespadl zpìt na objekt
+                    forceDirection = new Vector3(0, 0, Mathf.Sign(contactPoint.z - transform.position.z) * verticalForceMultiplier);
+                }
+                else
+                {
+                    // Standardní odhození ve smìru normály
+                    forceDirection = normalDirection * -1;
+                }
+
+                playerRigidbody.AddForce(forceDirection * forceMagnitude, ForceMode.Impulse);
+
+                // Spuštìní probliknutí
+            }
+        }
+    }
+}
