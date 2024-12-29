@@ -28,6 +28,10 @@ public class Movement : MonoBehaviour
     {
         torchSystem = parentObject.GetComponent<TorchSystem>();
         rb = GetComponent<Rigidbody>();
+        mrtvej = false;
+        pohyb = true;
+        konec = false;
+        canMove = true;
     }
     float elapsedTime = 0;
     void Update()
