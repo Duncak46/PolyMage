@@ -23,6 +23,16 @@ public class Boss1 : MonoBehaviour
     private bool startedPhase2 = false;
     public GameObject WarningPrefab;
 
+    //Faze3
+    public Transform pointB;
+    private bool startedPhase3 = false;
+
+    //Faze4
+    public GameObject gizmoObject;
+    public float angle = 0f;
+    public float speedPhase4 = 5f;
+
+    private GizmosBoss1 odecteniRotace = new GizmosBoss1();
     void Start()
     {
         
@@ -59,7 +69,31 @@ public class Boss1 : MonoBehaviour
             StartCoroutine(Phase2());
         }
         //Faze 3 - Pøiblížení k ploše
+        if (phase==3)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pointB.position, speedFaze1 * Time.deltaTime);
+            if (transform.position == pointB.position)
+            {
+                StartCoroutine(Phase4());
+                phase = 4;
+            }
+        }
+        //Faze 4 - Rotace okolo hrace
+        if (phase == 4)
+        {
+            float radius = gizmoObject.transform.localScale.x / 2f;
 
+            // Aktualizace úhlu (rychlost + èas)
+            angle += speedPhase4 * Time.deltaTime;
+
+            // Pøevod úhlu na radiány a výpoèet pozice
+            float x = gizmoObject.transform.position.x + Mathf.Cos(angle) * radius;
+            float z = gizmoObject.transform.position.z + Mathf.Sin(angle) * radius;
+            float y = gizmoObject.transform.position.y; // Udržet stejnou výšku
+
+            // Nastavení nové pozice objektu
+            transform.position = new Vector3(x, y, z);
+        }
     }
     //Phase2
     IEnumerator Phase2()
@@ -71,6 +105,21 @@ public class Boss1 : MonoBehaviour
         }
         phase = 3;
         startedPhase2 = false;
+    }
+    IEnumerator Phase4()
+    {
+        while (odecteniRotace.gizmosValue != 2f)
+        {
+            odecteniRotace.gizmosValue -= 0.1f;
+            yield return new WaitForSeconds(0.2f);
+        }
+        while (odecteniRotace.gizmosValue != 4f)
+        {
+            odecteniRotace.gizmosValue -= 0.1f;
+            yield return new WaitForSeconds(0.2f);
+        }
+        phase = 5;
+        startedPhase3 = false;
     }
     void DropWarning()
     {

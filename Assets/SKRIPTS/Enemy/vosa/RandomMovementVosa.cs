@@ -1,90 +1,143 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class RandomMovementVosa : MonoBehaviour
 {
-    public float moveSpeed = 2.0f;
-    public float waitTime = 2.0f;
-    public Vector2 boundaryMin; // Minimální x a z hranice
-    public Vector2 boundaryMax; // Maximální x a z hranice
-    public float rotationSpeed = 5.0f;
-    public bool canMove = true;
-    public float detectionRadius = 5.0f; // Vzdálenost pro detekci hráèe
-    public LayerMask playerLayer; // Vrstva hráèe
+    int damage = 1;
+    public GameObject playerNONE;
+    public float forceMagnitude = 1f;
+    public float verticalForceMultiplier = 2f; // Pøidaný faktor pro zvýšení odhození po ose Z
+    public Rigidbody playerRigidbody;
 
-    private Vector3 targetPosition;
+    public float detectionRadius = 5f;
+    public float moveSpeed = 3f;
+    public float randomMoveSpeed = 2f;
+    public float changeTargetTime = 2f;
+    public float floatAmplitude = 0.5f;
+    public float floatFrequency = 2f;
+
+    public float boundaryMinX, boundaryMaxX, boundaryMinZ, boundaryMaxZ;
+
     private Transform player;
-    private bool isChasing = false;
+    private Vector3 targetPosition;
+    private float timer;
+    private bool chasingPlayer = false;
+    private float baseY;
 
     void Start()
     {
-        SetNewTargetPosition();
-        StartCoroutine(MoveContinuously());
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        SetRandomTarget();
+        baseY = transform.position.y;
     }
 
     void Update()
     {
-        // Použij Physics.OverlapSphere k detekci hráèe v okruhu
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, detectionRadius, playerLayer);
-        if (hitColliders.Length > 0)
+        if (player == null) return;
+
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        chasingPlayer = distanceToPlayer <= detectionRadius;
+
+        if (chasingPlayer)
         {
-            player = hitColliders[0].transform;
-            isChasing = true;
+            Vector3 chaseTarget = GetClampedPosition(player.position);
+            RotateTowards(chaseTarget);
+            MoveTowards(chaseTarget, moveSpeed);
         }
         else
         {
-            player = null;
-            isChasing = false;
+            timer -= Time.deltaTime;
+            if (timer <= 0 || Vector3.Distance(transform.position, targetPosition) < 0.5f)
+            {
+                SetRandomTarget();
+                timer = changeTargetTime;
+            }
+            RotateTowards(targetPosition);
+            MoveTowards(targetPosition, randomMoveSpeed);
+        }
+
+        FloatMovement();
+    }
+
+    void SetRandomTarget()
+    {
+        float randomX = Random.Range(boundaryMinX, boundaryMaxX);
+        float randomZ = Random.Range(boundaryMinZ, boundaryMaxZ);
+        targetPosition = new Vector3(randomX, baseY, randomZ);
+    }
+
+    Vector3 GetClampedPosition(Vector3 position)
+    {
+        float clampedX = Mathf.Clamp(position.x, boundaryMinX, boundaryMaxX);
+        float clampedZ = Mathf.Clamp(position.z, boundaryMinZ, boundaryMaxZ);
+        return new Vector3(clampedX, baseY, clampedZ);
+    }
+
+    void MoveTowards(Vector3 target, float speed)
+    {
+        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+    }
+
+    void RotateTowards(Vector3 target)
+    {
+        Vector3 direction = (target - transform.position).normalized;
+        direction.y = 0;
+        if (direction != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
         }
     }
 
-    void SetNewTargetPosition()
+    void FloatMovement()
     {
-        if (canMove)
-        {
-            float x = Random.Range(boundaryMin.x, boundaryMax.x);
-            float z = Random.Range(boundaryMin.y, boundaryMax.y);
-            targetPosition = new Vector3(x, transform.position.y, z);
-        }
+        transform.position = new Vector3(transform.position.x, baseY + Mathf.Sin(Time.time * floatFrequency) * floatAmplitude, transform.position.z);
     }
 
-    IEnumerator MoveContinuously()
+    void OnDrawGizmosSelected()
     {
-        while (true && canMove)
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject player = collision.gameObject;
+
+        if (player.CompareTag("Player"))
         {
-            if (isChasing && player != null)
+            HPSystem playerHealth = playerNONE.GetComponent<HPSystem>();
+            if (playerHealth != null)
             {
-                // Pøímo smìøuj k pozici hráèe
-                targetPosition = new Vector3(player.position.x, transform.position.y, player.position.z);
-
-                
-                    targetPosition.x = Mathf.Clamp(targetPosition.x, boundaryMin.x, boundaryMax.x);
-                
-                
-                    targetPosition.z = Mathf.Clamp(targetPosition.z, boundaryMin.y, boundaryMax.y);
-                
-                
+                playerHealth.TakeDamage(damage);
             }
 
-            // Pohyb k cílové pozici
-            Vector3 direction = (targetPosition - transform.position).normalized;
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, rotationSpeed * Time.deltaTime);
+            Vector3 contactPoint = collision.GetContact(0).point;
+            Vector3 normalDirection = collision.GetContact(0).normal;
 
-            while (Vector3.Distance(transform.position, targetPosition) > 0.1f)
+            if (playerRigidbody != null)
             {
-                transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-                yield return null;
-            }
+                Vector3 forceDirection;
 
-            // Èekání na další cílovou pozici, pokud nejsme v režimu sledování
-            if (!isChasing)
-            {
-                yield return new WaitForSeconds(waitTime);
-                SetNewTargetPosition();
-            }
+                // Kontrola, zda kolize pøišla shora
+                if (normalDirection.y < -0.5f) // Detekce, jestli normála smìøuje pøevážnì nahoru
+                {
+                    // Odhození po ose Z (stranou) místo osy Y, aby hráè nespadl zpìt na objekt
+                    forceDirection = new Vector3(0, 0, Mathf.Sign(contactPoint.z - transform.position.z) * verticalForceMultiplier);
+                }
+                else
+                {
+                    // Standardní odhození ve smìru normály
+                    forceDirection = normalDirection * -1;
+                }
 
-            yield return null;
+                playerRigidbody.AddForce(forceDirection * forceMagnitude, ForceMode.Impulse);
+
+                // Spuštìní probliknutí
+            }
         }
     }
 }
+
+
