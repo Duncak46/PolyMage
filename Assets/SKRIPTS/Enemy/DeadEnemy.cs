@@ -26,6 +26,7 @@ public class DeadEnemy : MonoBehaviour
         GameObject shoot = collision.gameObject;
         if (shoot.CompareTag("Fire"))
         {
+            Destroy(shoot);
             StartCoroutine(Blink());
             HP--;
             if (HP <= 0 && !isDead)
