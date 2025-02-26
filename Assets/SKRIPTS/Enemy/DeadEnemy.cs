@@ -29,9 +29,11 @@ public class DeadEnemy : MonoBehaviour
             Destroy(shoot);
             StartCoroutine(Blink());
             HP--;
+            Debug.Log(HP);
             if (HP <= 0 && !isDead)
             {
                 Destroy(gameObject.GetComponent<RandomMovement1>());
+                Destroy(gameObject.GetComponent<RandomMovementVosa>());
                 Destroy(gameObject.GetComponent<BoxCollider>());
                 StartDeath();
             }
