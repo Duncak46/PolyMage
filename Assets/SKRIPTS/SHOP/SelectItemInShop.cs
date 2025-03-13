@@ -26,6 +26,14 @@ public class SelectItemInShop : MonoBehaviour
     {
         choosingPanel.position = panel1.position;
         choosedPanel = 1;
+        if (Shoot1.whichshoot == 1)
+        {
+            typeshoot.text = "\nSingleShoot";
+        }
+        else if (Shoot1.whichshoot == 2)
+        {
+            typeshoot.text = "\nDoubleShoot";
+        }
     }
 
     // Update is called once per frame
@@ -35,7 +43,6 @@ public class SelectItemInShop : MonoBehaviour
         coins.text = HPSystem.coins.ToString() + "\n \n \n \n";
         lifes.text = HPSystem.health.ToString() + "\n \n";
         //Dodìlat text na shoot
-        typeshoot.text = "\n XXX";
         magic.text = "\n \n \n" + MagicLevel.ToString();
         //Choosing
         if (choosingPanel.position == panel1.position)
@@ -139,6 +146,7 @@ public class SelectItemInShop : MonoBehaviour
                     {
                         HPSystem.coins -= HowMuchMinus;
                         Shoot1.whichshoot = 1;
+                        typeshoot.text = "\nSingleShoot";
                     }
                 }
                 if (choosedPanel == 4)
@@ -147,6 +155,7 @@ public class SelectItemInShop : MonoBehaviour
                     {
                         HPSystem.coins -= HowMuchMinus;
                         Shoot1.whichshoot = 2;
+                        typeshoot.text = "\nDoubleShoot";
                     }
                 }
             }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TorchSystem : MonoBehaviour
 {
@@ -11,35 +12,63 @@ public class TorchSystem : MonoBehaviour
     public GameObject VFX;
     public TMP_Text HowMuchT;
     public TMP_Text iHaveT;
+    string sceneName;
     // Start is called before the first frame update
     void Start()
     {
         HowMuch = gameObject.transform.childCount - 1;
         iHave = 0;
+        sceneName = SceneManager.GetActiveScene().name;
     }
     // Update is called once per frame
     void Update()
     {
-        if (HowMuch < 10)
+        
+        if (sceneName != "Level15" && sceneName != "Level25" && sceneName != "Level35")
         {
-            HowMuchT.text = "/0" + HowMuch;
-        }
-        else 
-        {
-            HowMuchT.text = "/" + HowMuch;
-        }
+            if (HowMuch < 10)
+            {
+                HowMuchT.text = "/0" + HowMuch;
+            }
+            else
+            {
+                HowMuchT.text = "/" + HowMuch;
+            }
 
-        if (iHave < 10)
-        {
-            iHaveT.text = "0"+iHave.ToString();
+            if (iHave < 10)
+            {
+                iHaveT.text = "0" + iHave.ToString();
+            }
+            else
+            {
+                iHaveT.text = iHave.ToString();
+            }
+            if (iHave == HowMuch)
+            {
+                VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f, 0.25f, 0.25f), Time.deltaTime * 5);
+            }
         }
-        else
+        else if(sceneName == "Level15")
         {
-            iHaveT.text = iHave.ToString();
+            HowMuchT.text = "";
+            iHaveT.text = "BOSS";
+            HowMuch = 1;
+            if (GameObject.Find("BossMega") == null)
+            {
+                iHave = 1;
+                VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f, 0.25f, 0.25f), Time.deltaTime * 5);
+            }
         }
-        if (iHave == HowMuch)
+        else if(sceneName == "Level25")
         {
-            VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f,0.25f,0.25f), Time.deltaTime * 5);
+            HowMuchT.text = "";
+            iHaveT.text = "BOSS";
+            HowMuch = 1;
+            if (GameObject.Find("Vosa") == null)
+            {
+                iHave = 1;
+                VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f, 0.25f, 0.25f), Time.deltaTime * 5);
+            }
         }
     }
  

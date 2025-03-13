@@ -30,6 +30,12 @@ public class DeadEnemy : MonoBehaviour
             StartCoroutine(Blink());
             HP--;
             Debug.Log(HP);
+            Rigidbody rb = GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+            }
             if (HP <= 0 && !isDead)
             {
                 Destroy(gameObject.GetComponent<RandomMovement1>());
