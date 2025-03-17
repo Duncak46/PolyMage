@@ -1258,7 +1258,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: HP
-      value: 20
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: coin
@@ -1267,6 +1267,14 @@ PrefabInstance:
     - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: deathForce
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
+      propertyPath: destroyDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
+      propertyPath: moveSpeed
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: playerNONE
@@ -1287,6 +1295,14 @@ PrefabInstance:
     - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: boundaryMinZ
       value: -30.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
+      propertyPath: forceMagnitude
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
+      propertyPath: detectionRadius
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 2285474863961272961, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: playerRigidbody

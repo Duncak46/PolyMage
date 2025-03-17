@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class HPSystem : MonoBehaviour
 {
+    private bool onlyOne = true;
     public TMP_Text coiny;
     public static int coins = 1000;
     public static int health = 3;
@@ -47,6 +48,12 @@ public class HPSystem : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape) && onlyOne) 
+        {
+            onlyOne = false;
+            health = 0;
+            StartCoroutine(Blink());
+        }
         coiny.text = coins.ToString();
         switch (health)
         {

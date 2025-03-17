@@ -200,6 +200,27 @@ public class MainMenu : MonoBehaviour
             File.WriteAllText(filePath, "1");
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        //coiny
+        string filePathCOINS = Path.Combine(currentDirectory, "coins1.txt");
+        if (!File.Exists(filePathCOINS))
+        {
+            File.WriteAllText(filePathCOINS, "0");
+        }
+        HPSystem.coins = int.Parse(File.ReadAllText(filePathCOINS));
+        //shot
+        string filePathSHOOT = Path.Combine(currentDirectory, "shoot1.txt");
+        if (!File.Exists(filePathSHOOT))
+        {
+            File.WriteAllText(filePathSHOOT, "1");
+        }
+        Shoot1.whichshoot = int.Parse(File.ReadAllText(filePathSHOOT));
+        //manaLevel
+        string filePathMANA = Path.Combine(currentDirectory, "mana1.txt");
+        if (!File.Exists(filePathMANA))
+        {
+            File.WriteAllText(filePathMANA, "1");
+        }
+        SelectItemInShop.MagicLevel = int.Parse(File.ReadAllText(filePathMANA));
         save = 1;
         zvetsit = true;
     }
@@ -212,6 +233,27 @@ public class MainMenu : MonoBehaviour
             File.WriteAllText(filePath, "1");
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        //coiny
+        string filePathCOINS = Path.Combine(currentDirectory, "coins2.txt");
+        if (!File.Exists(filePathCOINS))
+        {
+            File.WriteAllText(filePathCOINS, "0");
+        }
+        HPSystem.coins = int.Parse(File.ReadAllText(filePathCOINS));
+        //shot
+        string filePathSHOOT = Path.Combine(currentDirectory, "shoot2.txt");
+        if (!File.Exists(filePathSHOOT))
+        {
+            File.WriteAllText(filePathSHOOT, "1");
+        }
+        Shoot1.whichshoot = int.Parse(File.ReadAllText(filePathSHOOT));
+        //manaLevel
+        string filePathMANA = Path.Combine(currentDirectory, "mana2.txt");
+        if (!File.Exists(filePathMANA))
+        {
+            File.WriteAllText(filePathMANA, "1");
+        }
+        SelectItemInShop.MagicLevel = int.Parse(File.ReadAllText(filePathMANA));
         save = 2;
         zvetsit = true;
     }
@@ -224,6 +266,27 @@ public class MainMenu : MonoBehaviour
             File.WriteAllText(filePath, "1");
         }
         LevelManager.unlockedLevel = int.Parse(File.ReadAllText(filePath));
+        //coiny
+        string filePathCOINS = Path.Combine(currentDirectory, "coins3.txt");
+        if (!File.Exists(filePathCOINS))
+        {
+            File.WriteAllText(filePathCOINS, "0");
+        }
+        HPSystem.coins = int.Parse(File.ReadAllText(filePathCOINS));
+        //shot
+        string filePathSHOOT = Path.Combine(currentDirectory, "shoot3.txt");
+        if (!File.Exists(filePathSHOOT))
+        {
+            File.WriteAllText(filePathSHOOT, "1");
+        }
+        Shoot1.whichshoot = int.Parse(File.ReadAllText(filePathSHOOT));
+        //manaLevel
+        string filePathMANA = Path.Combine(currentDirectory, "mana3.txt");
+        if (!File.Exists(filePathMANA))
+        {
+            File.WriteAllText(filePathMANA, "1");
+        }
+        SelectItemInShop.MagicLevel = int.Parse(File.ReadAllText(filePathMANA));
         save = 3;
         zvetsit = true;
     }

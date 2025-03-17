@@ -177,7 +177,7 @@ public class MovementToLevels : MonoBehaviour
         }
 
         // Ovládání rotace doprava
-        if (Input.GetKeyDown(KeyCode.D) && odchazi == false || Input.GetKeyDown(KeyCode.RightArrow) && odchazi == false)
+        if (Input.GetKeyDown(KeyCode.D) && odchazi == false)
         {
             if (levelNum < 5)
             {
@@ -188,7 +188,7 @@ public class MovementToLevels : MonoBehaviour
         }
 
         // Ovládání rotace doleva
-        if (Input.GetKeyDown(KeyCode.A ) && odchazi == false || Input.GetKeyDown(KeyCode.LeftArrow) && odchazi == false)
+        if (Input.GetKeyDown(KeyCode.A ) && odchazi == false)
         {
             if (levelNum > 0)
             {

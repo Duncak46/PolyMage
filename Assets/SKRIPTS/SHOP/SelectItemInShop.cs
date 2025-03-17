@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.IO;
 
 public class SelectItemInShop : MonoBehaviour
 {
@@ -130,6 +131,21 @@ public class SelectItemInShop : MonoBehaviour
                     {
                         HPSystem.coins -= HowMuchMinus;
                         HPSystem.health++;
+                        if (MainMenu.save == 1)
+                        {
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins1.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                        }
+                        if (MainMenu.save == 2)
+                        {
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins2.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                        }
+                        if (MainMenu.save == 3)
+                        {
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins3.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                        }
                     }
                 }
                 if (choosedPanel == 2)
@@ -138,6 +154,33 @@ public class SelectItemInShop : MonoBehaviour
                     {
                         HPSystem.coins -= HowMuchMinus;
                         MagicLevel++;
+                        if (MainMenu.save == 1)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins1.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathMANA = Path.Combine(MainMenu.currentDirectory, "mana1.txt");
+                            File.WriteAllText(filePathMANA, MagicLevel.ToString());
+                        }
+                        if (MainMenu.save == 2)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins2.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathMANA = Path.Combine(MainMenu.currentDirectory, "mana2.txt");
+                            File.WriteAllText(filePathMANA, MagicLevel.ToString());
+                        }
+                        if (MainMenu.save == 3)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins3.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathMANA = Path.Combine(MainMenu.currentDirectory, "mana3.txt");
+                            File.WriteAllText(filePathMANA, MagicLevel.ToString());
+                        }
                     }
                 }
                 if (choosedPanel == 3)
@@ -147,6 +190,33 @@ public class SelectItemInShop : MonoBehaviour
                         HPSystem.coins -= HowMuchMinus;
                         Shoot1.whichshoot = 1;
                         typeshoot.text = "\nSingleShoot";
+                        if (MainMenu.save == 1)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins1.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot1.txt");
+                            File.WriteAllText(filePathSHOOT, "1");
+                        }
+                        if (MainMenu.save == 2)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins2.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot2.txt");
+                            File.WriteAllText(filePathSHOOT, "1");
+                        }
+                        if (MainMenu.save == 3)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins3.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot3.txt");
+                            File.WriteAllText(filePathSHOOT, "1");
+                        }
                     }
                 }
                 if (choosedPanel == 4)
@@ -156,6 +226,33 @@ public class SelectItemInShop : MonoBehaviour
                         HPSystem.coins -= HowMuchMinus;
                         Shoot1.whichshoot = 2;
                         typeshoot.text = "\nDoubleShoot";
+                        if (MainMenu.save == 1)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins1.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot1.txt");
+                            File.WriteAllText(filePathSHOOT, "2");
+                        }
+                        if (MainMenu.save == 2)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins2.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot2.txt");
+                            File.WriteAllText(filePathSHOOT, "2");
+                        }
+                        if (MainMenu.save == 3)
+                        {
+                            //Coiny
+                            string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins3.txt");
+                            File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+                            //Mana
+                            string filePathSHOOT = Path.Combine(MainMenu.currentDirectory, "shoot3.txt");
+                            File.WriteAllText(filePathSHOOT, "2");
+                        }
                     }
                 }
             }

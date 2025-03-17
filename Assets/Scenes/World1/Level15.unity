@@ -8645,6 +8645,14 @@ PrefabInstance:
       value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 2775623421698847589, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
+      propertyPath: waitTime
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775623421698847589, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775623421698847589, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
       propertyPath: playerNONE
       value: 
       objectReference: {fileID: 248957361961003221}
@@ -8662,7 +8670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2775623421698847589, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
       propertyPath: boundaryMin.y
-      value: -32.461
+      value: -34.853
       objectReference: {fileID: 0}
     - target: {fileID: 2775623421698847589, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
       propertyPath: playerRigidbody
@@ -8698,7 +8706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6659303635775317753, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.461
+      value: -34.853
       objectReference: {fileID: 0}
     - target: {fileID: 6659303635775317753, guid: 3b8c72386c8951b49b528975391877a2, type: 3}
       propertyPath: m_LocalRotation.w

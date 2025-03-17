@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -53,6 +54,21 @@ public class CoinSpin : MonoBehaviour
         {
             HPSystem pridej = new HPSystem();
             pridej.AddCoin(HowMuch);
+            if (MainMenu.save == 1)
+            {
+                string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins1.txt");
+                File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+            }
+            if (MainMenu.save == 2)
+            {
+                string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins2.txt");
+                File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+            }
+            if (MainMenu.save == 3)
+            {
+                string filePathCOINS = Path.Combine(MainMenu.currentDirectory, "coins3.txt");
+                File.WriteAllText(filePathCOINS, HPSystem.coins.ToString());
+            }
             Destroy(gameObject);
         }
     }
