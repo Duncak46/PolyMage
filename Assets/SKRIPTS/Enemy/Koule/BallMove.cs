@@ -19,6 +19,14 @@ public class BallMove : MonoBehaviour
     public Rigidbody playerRigidbody;
     void Start()
     {
+        if (playerNONE == null)
+        {
+            playerNONE = GameObject.Find("MageBro");
+        }
+        if (playerRigidbody == null)
+        {
+            playerRigidbody = GameObject.Find("Hrac")?.GetComponent<Rigidbody>();
+        }
         // Nastavíme poèáteèní cíl na bod A
         target = pointB.position;
     }

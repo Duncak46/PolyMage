@@ -3033,14 +3033,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1645777756}
     m_Modifications:
-    - target: {fileID: -7511558181221131132, guid: bbb116d7b854385468940f5a85fef09e, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: bbb116d7b854385468940f5a85fef09e, type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 445014dda691367429ba15fb50dc4a1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.47169814
@@ -3096,6 +3088,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 445014dda691367429ba15fb50dc4a1e, type: 3}
       propertyPath: m_Name
       value: tree-pine-snow-small
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bbb116d7b854385468940f5a85fef09e, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bbb116d7b854385468940f5a85fef09e, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12090,8 +12090,8 @@ MonoBehaviour:
   PW10: {fileID: 1521260952}
   bulletPrefab: {fileID: 7631962920916759128, guid: b773582e94576a445b1d1e2707f936e3, type: 3}
   firePoint: {fileID: 1845509173}
-  firePointDouble2: {fileID: 0}
-  firePointDouble1: {fileID: 0}
+  firePointDouble2: {fileID: 1199748035}
+  firePointDouble1: {fileID: 1166103201}
   bulletSpeed: 7
 --- !u!1 &485123990 stripped
 GameObject:
@@ -42969,7 +42969,7 @@ PrefabInstance:
       objectReference: {fileID: 1693550572}
     - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: deathForce
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1487342471191958857, guid: dad2127f4ae3f8842bdba2b9f1a98448, type: 3}
       propertyPath: destroyDelay

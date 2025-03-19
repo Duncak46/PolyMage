@@ -29,11 +29,11 @@ public class SelectItemInShop : MonoBehaviour
         choosedPanel = 1;
         if (Shoot1.whichshoot == 1)
         {
-            typeshoot.text = "\nSingleShoot";
+            typeshoot.text = "\nSingle";
         }
         else if (Shoot1.whichshoot == 2)
         {
-            typeshoot.text = "\nDoubleShoot";
+            typeshoot.text = "\nDouble";
         }
     }
 

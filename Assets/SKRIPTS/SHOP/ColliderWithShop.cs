@@ -41,8 +41,9 @@ public class ColliderWithShop : MonoBehaviour
     void Update()
     {
         //EXIT
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.E))
         {
+            HPSystem.jevShopu = false;
             oteviraSe = false;
             oteviraSe1 = false;
             oteviraSe2 = false;
@@ -146,6 +147,7 @@ public class ColliderWithShop : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            HPSystem.jevShopu = true;
             zaviraSe = false;
             zaviraSe1 = false;
             zaviraSe2 = false;

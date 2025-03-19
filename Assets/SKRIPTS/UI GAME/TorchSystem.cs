@@ -51,7 +51,7 @@ public class TorchSystem : MonoBehaviour
         else if(sceneName == "Level15")
         {
             HowMuchT.text = "";
-            iHaveT.text = "BOSS";
+            iHaveT.text = "   BOSS";
             HowMuch = 1;
             if (GameObject.Find("BossMega") == null)
             {
@@ -62,9 +62,20 @@ public class TorchSystem : MonoBehaviour
         else if(sceneName == "Level25")
         {
             HowMuchT.text = "";
-            iHaveT.text = "BOSS";
+            iHaveT.text = "   BOSS";
             HowMuch = 1;
             if (GameObject.Find("Vosa") == null)
+            {
+                iHave = 1;
+                VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f, 0.25f, 0.25f), Time.deltaTime * 5);
+            }
+        }
+        else if (sceneName == "Level35")
+        {
+            HowMuchT.text = "";
+            iHaveT.text = "   BOSS";
+            HowMuch = 1;
+            if (GameObject.Find("Carodej") == null)
             {
                 iHave = 1;
                 VFX.transform.localScale = Vector3.Lerp(VFX.transform.localScale, new Vector3(0.25f, 0.25f, 0.25f), Time.deltaTime * 5);
